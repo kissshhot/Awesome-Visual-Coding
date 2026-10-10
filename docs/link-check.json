@@ -1,0 +1,862 @@
+{
+  "generated_at": "2026-10-10T10:54:39+00:00",
+  "method": "HTTPS GET; bounded body; timeout 25s; one retry; HTML fragment IDs checked; no authentication",
+  "results": [
+    {
+      "url": "https://arxiv.org/abs/1608.02829",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:52:51+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/1608.02829",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 45242,
+      "sha256": "53a8f38a11dba5ac51dc4809b3a6ee1ea24c69e72480a3eef18f91236e2439cd",
+      "checked_at": "2026-10-10T10:52:51+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/1705.07962",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:52:51+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/1705.07962",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 41386,
+      "sha256": "5ccdabbb57f5b3f226f40adf4645bbac57d252ae30dd35d22be0e14498f7ddd4",
+      "checked_at": "2026-10-10T10:52:51+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/1802.02312",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:52:51+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/1802.02312",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 43993,
+      "sha256": "e4583926237b0fd8ff2a29044674d1717d6f121728c49ea6532ca65c80f315cc",
+      "checked_at": "2026-10-10T10:52:51+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.03163",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:52:51+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2403.03163",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 42257,
+      "sha256": "1215f69458036e64690b8c69adc7a7e47aa0e1135eec4afacb3764d875c23d7d",
+      "checked_at": "2026-10-10T10:52:51+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2403.09029",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:52:52+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2403.09029",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 40445,
+      "sha256": "a836a3f8bb01c77be53fb4f2a2ca8ae249b7cd40012571a6ac0c1afa7a636102",
+      "checked_at": "2026-10-10T10:52:52+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2404.06369",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:52:52+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2404.06369",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 46027,
+      "sha256": "129f131f5429b1d9036c9d4148a954088e9a037d33c0f03c0bd0c0edb0b89243",
+      "checked_at": "2026-10-10T10:52:52+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.16386",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:52:52+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2406.16386",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 45073,
+      "sha256": "0b278991028a7fcd07de439a402c51fd81a1cba6924d5e733f9ecc3105ec7fbf",
+      "checked_at": "2026-10-10T10:52:52+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.20098",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:52:54+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2406.20098",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 45997,
+      "sha256": "79cc13e2f6b737c3abe39da937e7b8ffcdb41be441ebf34a6149ec229d4ec389",
+      "checked_at": "2026-10-10T10:52:54+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.16232",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:52:54+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2410.16232",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 41633,
+      "sha256": "27fc7622deca3540740227a13644e97586402802702164df0483d3585587b1c7",
+      "checked_at": "2026-10-10T10:52:54+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2411.03292",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:54:37+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2411.03292",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 45673,
+      "sha256": "31b6749462d0a9326d59ec0f2122f147312b542c0e8e97bab00831d8a4c78b8a",
+      "checked_at": "2026-10-10T10:54:37+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.03719",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:52:54+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2502.03719",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 40173,
+      "sha256": "a90423bec4a1b6b96aa17564a8ba49b95cc126ca7696f8d4174cbb778913f04e",
+      "checked_at": "2026-10-10T10:52:54+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.01619",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:52:54+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2503.01619",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 43660,
+      "sha256": "0dde9e934b4c9e0e0f9ae2202530c0620deb6af9f93e462116f7da3c1b4002ce",
+      "checked_at": "2026-10-10T10:52:54+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.06251",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:52:55+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2506.06251",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 43854,
+      "sha256": "554eed5ce766a8663c35b8120a950b6c0950acbf0c40a4c6e152567795ec8b3d",
+      "checked_at": "2026-10-10T10:52:55+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.22827",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:52:55+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2507.22827",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 42899,
+      "sha256": "3a56a291db60120f1d80466df89b3b50c05c5146c4dfbad59ae5b024e6370e8f",
+      "checked_at": "2026-10-10T10:52:55+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.03560",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:52:55+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2508.03560",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 45314,
+      "sha256": "e1d57e5bd8b1b7db70d9c4b8de43d156f00f5f8d3a99d380792118b59a6ecf0b",
+      "checked_at": "2026-10-10T10:52:55+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.11498",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:52:55+00:00",
+          "error": "<urlopen error Remote end closed connection without response>"
+        },
+        {
+          "at": "2026-10-10T10:53:06+00:00",
+          "status": 200
+        }
+      ],
+      "checked_at": "2026-10-10T10:53:06+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2510.11498",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 43017,
+      "sha256": "c1e94a6de772def1ff9e8b4e07b4fe0d8fe6fd456645e7482aae01858bd3c23e",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.23538",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:52:59+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2510.23538",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 44614,
+      "sha256": "718d82ee5d6dd499bf9ef78d14d0edd88e5b1d0a0317d7d7e4e649f00154f547",
+      "checked_at": "2026-10-10T10:52:59+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.06251",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:52:59+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2511.06251",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 42652,
+      "sha256": "c8abb8a3c9dc68b763875cb86e20cb37822bdb985e34d0b394b74401fe79307b",
+      "checked_at": "2026-10-10T10:52:59+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2511.08195",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:00+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2511.08195",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 42598,
+      "sha256": "ab4fc55ce4f2269c0d883cba50fe9ef8cf68571622b7b530c21e0edf0d12e790",
+      "checked_at": "2026-10-10T10:53:00+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.05998",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:01+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2602.05998",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 41775,
+      "sha256": "31f3d11911d3d249ca057d0cf4a44e6ed869e3ff1bbb3a8449d1c0f92823765c",
+      "checked_at": "2026-10-10T10:53:01+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.18548",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:01+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2602.18548",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 42896,
+      "sha256": "cc4b0fe031fd7b82e517d56b84d54ca38be59252a00861b1a236ae8613478518",
+      "checked_at": "2026-10-10T10:53:01+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2604.05839",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:03+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2604.05839",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 42081,
+      "sha256": "68831a1484a73ffd7bbb918a0bbf954165acb03a11efbcd1ceae63b63a1ac20f",
+      "checked_at": "2026-10-10T10:53:03+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.15932",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:04+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2606.15932",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 46176,
+      "sha256": "d21d266de759fa915e5dde9e3b9ca15c9285a3d2ee6a55da1d17482530014f44",
+      "checked_at": "2026-10-10T10:53:04+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.03474",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:05+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.03474",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 43164,
+      "sha256": "aabd30b1208b0b6d40c3f919b0c038bb1ef17088a672df096a4c68c0ce6a61c1",
+      "checked_at": "2026-10-10T10:53:05+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.12611",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:05+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.12611",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 42958,
+      "sha256": "7b9396862f29d8e0fe1388cd015caf99472ef66a038ff1f62895dfee85921624",
+      "checked_at": "2026-10-10T10:53:05+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.24138",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:05+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.24138",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 42895,
+      "sha256": "d65cfa841d5672bca3a91612deeee3398f9ea2757f7d1f487a9cc23103281c83",
+      "checked_at": "2026-10-10T10:53:05+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.34587",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:06+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2609.34587",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 42226,
+      "sha256": "b5e8864e43bf79764b055804ae28a4f3b0561688a235c0b59cd1fe2815de52d1",
+      "checked_at": "2026-10-10T10:53:06+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.10374",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:07+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2610.10374",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 43738,
+      "sha256": "30be6963fdbe481c02ea582d27352c6855159e8612de58828b3ee73360ac91a8",
+      "checked_at": "2026-10-10T10:53:07+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/html/1608.02829v1",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:08+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/1608.02829v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 191518,
+      "sha256": "76a3654f40aace1bec33ea585c77b037875926a4c4e3b85efcaba3ec43041799",
+      "checked_at": "2026-10-10T10:53:08+00:00",
+      "fragments": {
+        "S2": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/1705.07962v2",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:08+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/1705.07962v2",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 119102,
+      "sha256": "20d30fb27be026324441faf53536da2930371b469fd2b2479445b299cce6bb4a",
+      "checked_at": "2026-10-10T10:53:08+00:00",
+      "fragments": {
+        "S3": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/1802.02312v2",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:08+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/1802.02312v2",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 510729,
+      "sha256": "74c767fabf637548cf69849ecd526191eb9482da59f7785577d6a67267c8cb78",
+      "checked_at": "2026-10-10T10:53:08+00:00",
+      "fragments": {
+        "S3": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2403.03163v3",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:09+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2403.03163v3",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 256460,
+      "sha256": "ac4cec0e32819c47656f833b93d6f97069cb20c797a53352d738f9ae34335d38",
+      "checked_at": "2026-10-10T10:53:09+00:00",
+      "fragments": {
+        "S2": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2403.09029v1",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:09+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2403.09029v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 70999,
+      "sha256": "515ea457068d3b9c0e693dcd43676f15a870b680923a478785d3c5b48c9d61bb",
+      "checked_at": "2026-10-10T10:53:09+00:00",
+      "fragments": {
+        "S3": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2404.06369v2",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:10+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2404.06369v2",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 264421,
+      "sha256": "3a5dae728d6d331e185db6b33c2ba7131c30a2cd87ab6e2d482d76150be8fcb3",
+      "checked_at": "2026-10-10T10:53:10+00:00",
+      "fragments": {
+        "S2": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2406.16386v3",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:12+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2406.16386v3",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 366971,
+      "sha256": "90b5667fb2d78c81b6ab074110ae448c846ba75b06bc4ac8fa070d9df89da073",
+      "checked_at": "2026-10-10T10:53:12+00:00",
+      "fragments": {
+        "S5": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2502.03719v2",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:12+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2502.03719v2",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 300654,
+      "sha256": "b07f351c497d8c53d1a3f38ef74ec42209a36c468104ee73ccee45585987b062",
+      "checked_at": "2026-10-10T10:53:12+00:00",
+      "fragments": {
+        "S3": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2506.06251v3",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:12+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2506.06251v3",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 422967,
+      "sha256": "c913cc2bc27898ab12132dc69504d20ec1a7f432d2a4b8c97850f6f5828144f9",
+      "checked_at": "2026-10-10T10:53:12+00:00",
+      "fragments": {
+        "S4": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2511.06251v1",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:13+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2511.06251v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 293238,
+      "sha256": "4702493756a0dcab38f82fa54794c2d939d0e1be5a631624b144c70b0789a210",
+      "checked_at": "2026-10-10T10:53:13+00:00",
+      "fragments": {
+        "S3": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2511.08195v4",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:15+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2511.08195v4",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 444222,
+      "sha256": "994c3293736b92a994ebb4fd1d3bb1f0ec42ae126f420b90a989470d02b2c0cb",
+      "checked_at": "2026-10-10T10:53:15+00:00",
+      "fragments": {
+        "S2": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2602.05998v1",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:15+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2602.05998v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 372830,
+      "sha256": "1b4b0ac95730528d917b44ad0f8f87a35ec714955b12624d695a258afb85b6c7",
+      "checked_at": "2026-10-10T10:53:15+00:00",
+      "fragments": {
+        "S4": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2602.18548v3",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:16+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2602.18548v3",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 284291,
+      "sha256": "f06e5fe5277488ae9e01e5cbbcf01c09c0d3810ca6aec8ba1556751e46f8ceb8",
+      "checked_at": "2026-10-10T10:53:16+00:00",
+      "fragments": {
+        "S3": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2604.05839v1",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:17+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2604.05839v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 694984,
+      "sha256": "3ab787ef6f22b08647853baed4a035cd0ca278b816f6c6b8531dfc95fb66b129",
+      "checked_at": "2026-10-10T10:53:17+00:00",
+      "fragments": {
+        "S3": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2608.03474v1",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:19+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2608.03474v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 220727,
+      "sha256": "96d623ee3580e1a55d39ac462ea8b8eabc8ea2a2a6e8fa27741d7750680f15ba",
+      "checked_at": "2026-10-10T10:53:19+00:00",
+      "fragments": {
+        "S3": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2608.24138v1",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:19+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2608.24138v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 364621,
+      "sha256": "9101fd49de67ec82536eda6eeaf28401f549bef9117770a8cbd2891cec63f3c6",
+      "checked_at": "2026-10-10T10:53:19+00:00",
+      "fragments": {
+        "S3": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2609.34587v1",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:19+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2609.34587v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 320388,
+      "sha256": "17bd8782bd27f7490d5291aa4835340ad02370feccf5cbc60ba1e89ca7bf210b",
+      "checked_at": "2026-10-10T10:53:19+00:00",
+      "fragments": {
+        "S4": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2610.10374v1",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:22+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2610.10374v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 339679,
+      "sha256": "80506bb84d8b2e8fea56ff9bc360180bb65a6eef454294d737a67c3b2bd01656",
+      "checked_at": "2026-10-10T10:53:22+00:00",
+      "fragments": {
+        "S4": true
+      }
+    },
+    {
+      "url": "https://developers.googleblog.com/stitch-a-new-way-to-design-uis/",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:22+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://developers.googleblog.com/stitch-a-new-way-to-design-uis/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 40202,
+      "sha256": "0c2410d312775fdb38b5c99c861284b356bce5269e3c9e3b9a473e6b2439dc19",
+      "checked_at": "2026-10-10T10:53:22+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/abi/screenshot-to-code",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-10T10:53:22+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/abi/screenshot-to-code",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 353202,
+      "sha256": "64e5ddd43b4bdbb9108bb94e0085888d01c0ed632bc08b6329b6d7b03b5ecdbf",
+      "checked_at": "2026-10-10T10:53:22+00:00",
+      "fragments": {}
+    }
+  ]
+}

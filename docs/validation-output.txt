@@ -1,0 +1,5 @@
+PASS: 28 unique bilingual research entries; 8 categories; 2 system resources
+PASS: 28 audit records; 18 M / 10 A; authors, dates, cutoff, versions and registry parity
+PASS: 5 Markdown files; table shapes, summary languages/numbers, local links, anchors and navigation
+PASS: 48 external URLs and all cited remote fragments in saved report
+Limits: scientific truth, semantic translation and executable behavior require separate review.
