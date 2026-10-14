@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T10:54:39+00:00",
+  "generated_at": "2026-10-14T13:56:15+00:00",
   "method": "HTTPS GET; bounded body; timeout 25s; one retry; HTML fragment IDs checked; no authentication",
   "results": [
     {
@@ -7,7 +7,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:52:51+00:00",
+          "at": "2026-10-14T13:54:10+00:00",
           "status": 200
         }
       ],
@@ -16,7 +16,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 45242,
       "sha256": "53a8f38a11dba5ac51dc4809b3a6ee1ea24c69e72480a3eef18f91236e2439cd",
-      "checked_at": "2026-10-10T10:52:51+00:00",
+      "checked_at": "2026-10-14T13:54:10+00:00",
       "fragments": {}
     },
     {
@@ -24,7 +24,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:52:51+00:00",
+          "at": "2026-10-14T13:54:10+00:00",
           "status": 200
         }
       ],
@@ -33,7 +33,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 41386,
       "sha256": "5ccdabbb57f5b3f226f40adf4645bbac57d252ae30dd35d22be0e14498f7ddd4",
-      "checked_at": "2026-10-10T10:52:51+00:00",
+      "checked_at": "2026-10-14T13:54:10+00:00",
       "fragments": {}
     },
     {
@@ -41,7 +41,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:52:51+00:00",
+          "at": "2026-10-14T13:54:10+00:00",
           "status": 200
         }
       ],
@@ -50,7 +50,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 43993,
       "sha256": "e4583926237b0fd8ff2a29044674d1717d6f121728c49ea6532ca65c80f315cc",
-      "checked_at": "2026-10-10T10:52:51+00:00",
+      "checked_at": "2026-10-14T13:54:10+00:00",
       "fragments": {}
     },
     {
@@ -58,7 +58,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:52:51+00:00",
+          "at": "2026-10-14T13:54:10+00:00",
           "status": 200
         }
       ],
@@ -67,7 +67,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 42257,
       "sha256": "1215f69458036e64690b8c69adc7a7e47aa0e1135eec4afacb3764d875c23d7d",
-      "checked_at": "2026-10-10T10:52:51+00:00",
+      "checked_at": "2026-10-14T13:54:10+00:00",
       "fragments": {}
     },
     {
@@ -75,7 +75,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:52:52+00:00",
+          "at": "2026-10-14T13:54:12+00:00",
           "status": 200
         }
       ],
@@ -84,7 +84,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 40445,
       "sha256": "a836a3f8bb01c77be53fb4f2a2ca8ae249b7cd40012571a6ac0c1afa7a636102",
-      "checked_at": "2026-10-10T10:52:52+00:00",
+      "checked_at": "2026-10-14T13:54:12+00:00",
       "fragments": {}
     },
     {
@@ -92,7 +92,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:52:52+00:00",
+          "at": "2026-10-14T13:54:12+00:00",
           "status": 200
         }
       ],
@@ -101,7 +101,24 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 46027,
       "sha256": "129f131f5429b1d9036c9d4148a954088e9a037d33c0f03c0bd0c0edb0b89243",
-      "checked_at": "2026-10-10T10:52:52+00:00",
+      "checked_at": "2026-10-14T13:54:12+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.07739",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:54:13+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2406.07739",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 41869,
+      "sha256": "60cb01c5373d715536fe1beef2b200eeade0998e6f558257c0b67f39c60b50f0",
+      "checked_at": "2026-10-14T13:54:13+00:00",
       "fragments": {}
     },
     {
@@ -109,7 +126,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:52:52+00:00",
+          "at": "2026-10-14T13:54:13+00:00",
           "status": 200
         }
       ],
@@ -118,7 +135,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 45073,
       "sha256": "0b278991028a7fcd07de439a402c51fd81a1cba6924d5e733f9ecc3105ec7fbf",
-      "checked_at": "2026-10-10T10:52:52+00:00",
+      "checked_at": "2026-10-14T13:54:13+00:00",
       "fragments": {}
     },
     {
@@ -126,7 +143,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:52:54+00:00",
+          "at": "2026-10-14T13:54:14+00:00",
           "status": 200
         }
       ],
@@ -135,7 +152,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 45997,
       "sha256": "79cc13e2f6b737c3abe39da937e7b8ffcdb41be441ebf34a6149ec229d4ec389",
-      "checked_at": "2026-10-10T10:52:54+00:00",
+      "checked_at": "2026-10-14T13:54:14+00:00",
       "fragments": {}
     },
     {
@@ -143,7 +160,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:52:54+00:00",
+          "at": "2026-10-14T13:54:14+00:00",
           "status": 200
         }
       ],
@@ -152,7 +169,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 41633,
       "sha256": "27fc7622deca3540740227a13644e97586402802702164df0483d3585587b1c7",
-      "checked_at": "2026-10-10T10:52:54+00:00",
+      "checked_at": "2026-10-14T13:54:14+00:00",
       "fragments": {}
     },
     {
@@ -160,7 +177,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:54:37+00:00",
+          "at": "2026-10-14T13:54:14+00:00",
           "status": 200
         }
       ],
@@ -169,7 +186,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 45673,
       "sha256": "31b6749462d0a9326d59ec0f2122f147312b542c0e8e97bab00831d8a4c78b8a",
-      "checked_at": "2026-10-10T10:54:37+00:00",
+      "checked_at": "2026-10-14T13:54:14+00:00",
       "fragments": {}
     },
     {
@@ -177,16 +194,16 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:52:54+00:00",
+          "at": "2026-10-14T13:54:15+00:00",
           "status": 200
         }
       ],
       "status": 200,
       "final_url": "https://arxiv.org/abs/2502.03719",
       "content_type": "text/html; charset=utf-8",
-      "bytes_read": 40173,
-      "sha256": "a90423bec4a1b6b96aa17564a8ba49b95cc126ca7696f8d4174cbb778913f04e",
-      "checked_at": "2026-10-10T10:52:54+00:00",
+      "bytes_read": 40357,
+      "sha256": "ec2b2e0c18fcebb4382e7569a79455bd403352218aad8e76667a502888eb6119",
+      "checked_at": "2026-10-14T13:54:15+00:00",
       "fragments": {}
     },
     {
@@ -194,7 +211,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:52:54+00:00",
+          "at": "2026-10-14T13:54:15+00:00",
           "status": 200
         }
       ],
@@ -203,7 +220,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 43660,
       "sha256": "0dde9e934b4c9e0e0f9ae2202530c0620deb6af9f93e462116f7da3c1b4002ce",
-      "checked_at": "2026-10-10T10:52:54+00:00",
+      "checked_at": "2026-10-14T13:54:15+00:00",
       "fragments": {}
     },
     {
@@ -211,7 +228,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:52:55+00:00",
+          "at": "2026-10-14T13:54:15+00:00",
           "status": 200
         }
       ],
@@ -220,7 +237,24 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 43854,
       "sha256": "554eed5ce766a8663c35b8120a950b6c0950acbf0c40a4c6e152567795ec8b3d",
-      "checked_at": "2026-10-10T10:52:55+00:00",
+      "checked_at": "2026-10-14T13:54:15+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.13663",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:54:15+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2506.13663",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 44222,
+      "sha256": "c5f154c2e30328d8c5c57d4c41447f24f2ed4cb70237694b0053cf4adbe80a83",
+      "checked_at": "2026-10-14T13:54:15+00:00",
       "fragments": {}
     },
     {
@@ -228,7 +262,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:52:55+00:00",
+          "at": "2026-10-14T13:54:16+00:00",
           "status": 200
         }
       ],
@@ -237,7 +271,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 42899,
       "sha256": "3a56a291db60120f1d80466df89b3b50c05c5146c4dfbad59ae5b024e6370e8f",
-      "checked_at": "2026-10-10T10:52:55+00:00",
+      "checked_at": "2026-10-14T13:54:16+00:00",
       "fragments": {}
     },
     {
@@ -245,7 +279,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:52:55+00:00",
+          "at": "2026-10-14T13:54:16+00:00",
           "status": 200
         }
       ],
@@ -254,7 +288,24 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 45314,
       "sha256": "e1d57e5bd8b1b7db70d9c4b8de43d156f00f5f8d3a99d380792118b59a6ecf0b",
-      "checked_at": "2026-10-10T10:52:55+00:00",
+      "checked_at": "2026-10-14T13:54:16+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.16763",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:54:16+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2508.16763",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 42575,
+      "sha256": "7ee80c388d06833818d46d82547cc6342efd4f5705430407d5fcf14357f25f97",
+      "checked_at": "2026-10-14T13:54:16+00:00",
       "fragments": {}
     },
     {
@@ -262,20 +313,33 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:52:55+00:00",
-          "error": "<urlopen error Remote end closed connection without response>"
-        },
-        {
-          "at": "2026-10-10T10:53:06+00:00",
+          "at": "2026-10-14T13:54:17+00:00",
           "status": 200
         }
       ],
-      "checked_at": "2026-10-10T10:53:06+00:00",
       "status": 200,
       "final_url": "https://arxiv.org/abs/2510.11498",
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 43017,
       "sha256": "c1e94a6de772def1ff9e8b4e07b4fe0d8fe6fd456645e7482aae01858bd3c23e",
+      "checked_at": "2026-10-14T13:54:17+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.15306",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:54:18+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2510.15306",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 42011,
+      "sha256": "daf9727dedec1a8e72c99b31234d0bff5417eaf99ddec3220c4c896a80f2c14a",
+      "checked_at": "2026-10-14T13:54:18+00:00",
       "fragments": {}
     },
     {
@@ -283,7 +347,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:52:59+00:00",
+          "at": "2026-10-14T13:54:19+00:00",
           "status": 200
         }
       ],
@@ -292,7 +356,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 44614,
       "sha256": "718d82ee5d6dd499bf9ef78d14d0edd88e5b1d0a0317d7d7e4e649f00154f547",
-      "checked_at": "2026-10-10T10:52:59+00:00",
+      "checked_at": "2026-10-14T13:54:19+00:00",
       "fragments": {}
     },
     {
@@ -300,7 +364,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:52:59+00:00",
+          "at": "2026-10-14T13:54:19+00:00",
           "status": 200
         }
       ],
@@ -309,7 +373,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 42652,
       "sha256": "c8abb8a3c9dc68b763875cb86e20cb37822bdb985e34d0b394b74401fe79307b",
-      "checked_at": "2026-10-10T10:52:59+00:00",
+      "checked_at": "2026-10-14T13:54:19+00:00",
       "fragments": {}
     },
     {
@@ -317,7 +381,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:00+00:00",
+          "at": "2026-10-14T13:54:20+00:00",
           "status": 200
         }
       ],
@@ -326,7 +390,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 42598,
       "sha256": "ab4fc55ce4f2269c0d883cba50fe9ef8cf68571622b7b530c21e0edf0d12e790",
-      "checked_at": "2026-10-10T10:53:00+00:00",
+      "checked_at": "2026-10-14T13:54:20+00:00",
       "fragments": {}
     },
     {
@@ -334,7 +398,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:01+00:00",
+          "at": "2026-10-14T13:54:21+00:00",
           "status": 200
         }
       ],
@@ -343,7 +407,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 41775,
       "sha256": "31f3d11911d3d249ca057d0cf4a44e6ed869e3ff1bbb3a8449d1c0f92823765c",
-      "checked_at": "2026-10-10T10:53:01+00:00",
+      "checked_at": "2026-10-14T13:54:21+00:00",
       "fragments": {}
     },
     {
@@ -351,7 +415,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:01+00:00",
+          "at": "2026-10-14T13:54:22+00:00",
           "status": 200
         }
       ],
@@ -360,7 +424,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 42896,
       "sha256": "cc4b0fe031fd7b82e517d56b84d54ca38be59252a00861b1a236ae8613478518",
-      "checked_at": "2026-10-10T10:53:01+00:00",
+      "checked_at": "2026-10-14T13:54:22+00:00",
       "fragments": {}
     },
     {
@@ -368,7 +432,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:03+00:00",
+          "at": "2026-10-14T13:54:22+00:00",
           "status": 200
         }
       ],
@@ -377,7 +441,24 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 42081,
       "sha256": "68831a1484a73ffd7bbb918a0bbf954165acb03a11efbcd1ceae63b63a1ac20f",
-      "checked_at": "2026-10-10T10:53:03+00:00",
+      "checked_at": "2026-10-14T13:54:22+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2605.26144",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:54:23+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2605.26144",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 44100,
+      "sha256": "a7153a26a8b50b64b824c9e9c994262c87e21a865f2157f375352075e8c05322",
+      "checked_at": "2026-10-14T13:54:23+00:00",
       "fragments": {}
     },
     {
@@ -385,7 +466,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:04+00:00",
+          "at": "2026-10-14T13:54:23+00:00",
           "status": 200
         }
       ],
@@ -394,7 +475,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 46176,
       "sha256": "d21d266de759fa915e5dde9e3b9ca15c9285a3d2ee6a55da1d17482530014f44",
-      "checked_at": "2026-10-10T10:53:04+00:00",
+      "checked_at": "2026-10-14T13:54:23+00:00",
       "fragments": {}
     },
     {
@@ -402,7 +483,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:05+00:00",
+          "at": "2026-10-14T13:54:23+00:00",
           "status": 200
         }
       ],
@@ -411,7 +492,24 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 43164,
       "sha256": "aabd30b1208b0b6d40c3f919b0c038bb1ef17088a672df096a4c68c0ce6a61c1",
-      "checked_at": "2026-10-10T10:53:05+00:00",
+      "checked_at": "2026-10-14T13:54:23+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.03691",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:54:23+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2608.03691",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 44559,
+      "sha256": "a8a092834ce7692532dbcbecca48928f0607d1e379630b0202a6681b2e8e0c34",
+      "checked_at": "2026-10-14T13:54:23+00:00",
       "fragments": {}
     },
     {
@@ -419,7 +517,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:05+00:00",
+          "at": "2026-10-14T13:54:24+00:00",
           "status": 200
         }
       ],
@@ -428,7 +526,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 42958,
       "sha256": "7b9396862f29d8e0fe1388cd015caf99472ef66a038ff1f62895dfee85921624",
-      "checked_at": "2026-10-10T10:53:05+00:00",
+      "checked_at": "2026-10-14T13:54:24+00:00",
       "fragments": {}
     },
     {
@@ -436,7 +534,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:05+00:00",
+          "at": "2026-10-14T13:54:24+00:00",
           "status": 200
         }
       ],
@@ -445,7 +543,24 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 42895,
       "sha256": "d65cfa841d5672bca3a91612deeee3398f9ea2757f7d1f487a9cc23103281c83",
-      "checked_at": "2026-10-10T10:53:05+00:00",
+      "checked_at": "2026-10-14T13:54:24+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.34309",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:54:25+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2609.34309",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 43903,
+      "sha256": "a06835ca31ae774fae8b085c76a57919121b34e9e44ac77da830515963afce9d",
+      "checked_at": "2026-10-14T13:54:25+00:00",
       "fragments": {}
     },
     {
@@ -453,7 +568,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:06+00:00",
+          "at": "2026-10-14T13:54:25+00:00",
           "status": 200
         }
       ],
@@ -462,7 +577,24 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 42226,
       "sha256": "b5e8864e43bf79764b055804ae28a4f3b0561688a235c0b59cd1fe2815de52d1",
-      "checked_at": "2026-10-10T10:53:06+00:00",
+      "checked_at": "2026-10-14T13:54:25+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.02617",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:54:26+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2610.02617",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 42144,
+      "sha256": "b6ad6e19b6623659eac942aa484f2390712d1adb3c9fb3678b7219cccb8d0aba",
+      "checked_at": "2026-10-14T13:54:26+00:00",
       "fragments": {}
     },
     {
@@ -470,7 +602,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:07+00:00",
+          "at": "2026-10-14T13:54:27+00:00",
           "status": 200
         }
       ],
@@ -479,7 +611,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 43738,
       "sha256": "30be6963fdbe481c02ea582d27352c6855159e8612de58828b3ee73360ac91a8",
-      "checked_at": "2026-10-10T10:53:07+00:00",
+      "checked_at": "2026-10-14T13:54:27+00:00",
       "fragments": {}
     },
     {
@@ -487,7 +619,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:08+00:00",
+          "at": "2026-10-14T13:54:28+00:00",
           "status": 200
         }
       ],
@@ -496,7 +628,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 191518,
       "sha256": "76a3654f40aace1bec33ea585c77b037875926a4c4e3b85efcaba3ec43041799",
-      "checked_at": "2026-10-10T10:53:08+00:00",
+      "checked_at": "2026-10-14T13:54:28+00:00",
       "fragments": {
         "S2": true
       }
@@ -506,16 +638,16 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:08+00:00",
+          "at": "2026-10-14T13:54:29+00:00",
           "status": 200
         }
       ],
       "status": 200,
       "final_url": "https://arxiv.org/html/1705.07962v2",
       "content_type": "text/html; charset=utf-8",
-      "bytes_read": 119102,
-      "sha256": "20d30fb27be026324441faf53536da2930371b469fd2b2479445b299cce6bb4a",
-      "checked_at": "2026-10-10T10:53:08+00:00",
+      "bytes_read": 119337,
+      "sha256": "98c351e9f2895b4a561914cf366163b01768459d277dc722bd7c1bab7aa01ec3",
+      "checked_at": "2026-10-14T13:54:29+00:00",
       "fragments": {
         "S3": true
       }
@@ -525,7 +657,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:08+00:00",
+          "at": "2026-10-14T13:54:29+00:00",
           "status": 200
         }
       ],
@@ -534,7 +666,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 510729,
       "sha256": "74c767fabf637548cf69849ecd526191eb9482da59f7785577d6a67267c8cb78",
-      "checked_at": "2026-10-10T10:53:08+00:00",
+      "checked_at": "2026-10-14T13:54:29+00:00",
       "fragments": {
         "S3": true
       }
@@ -544,7 +676,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:09+00:00",
+          "at": "2026-10-14T13:54:29+00:00",
           "status": 200
         }
       ],
@@ -553,7 +685,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 256460,
       "sha256": "ac4cec0e32819c47656f833b93d6f97069cb20c797a53352d738f9ae34335d38",
-      "checked_at": "2026-10-10T10:53:09+00:00",
+      "checked_at": "2026-10-14T13:54:29+00:00",
       "fragments": {
         "S2": true
       }
@@ -563,7 +695,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:09+00:00",
+          "at": "2026-10-14T13:54:30+00:00",
           "status": 200
         }
       ],
@@ -572,7 +704,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 70999,
       "sha256": "515ea457068d3b9c0e693dcd43676f15a870b680923a478785d3c5b48c9d61bb",
-      "checked_at": "2026-10-10T10:53:09+00:00",
+      "checked_at": "2026-10-14T13:54:30+00:00",
       "fragments": {
         "S3": true
       }
@@ -582,7 +714,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:10+00:00",
+          "at": "2026-10-14T13:54:31+00:00",
           "status": 200
         }
       ],
@@ -591,9 +723,28 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 264421,
       "sha256": "3a5dae728d6d331e185db6b33c2ba7131c30a2cd87ab6e2d482d76150be8fcb3",
-      "checked_at": "2026-10-10T10:53:10+00:00",
+      "checked_at": "2026-10-14T13:54:31+00:00",
       "fragments": {
         "S2": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2406.07739v1",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:54:32+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2406.07739v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 147367,
+      "sha256": "85ee3413c090b98716a7736ed37e556523b79d286af44fc635b154ab01089ec4",
+      "checked_at": "2026-10-14T13:54:32+00:00",
+      "fragments": {
+        "S3.SS3": true
       }
     },
     {
@@ -601,16 +752,16 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:12+00:00",
+          "at": "2026-10-14T13:56:07+00:00",
           "status": 200
         }
       ],
       "status": 200,
       "final_url": "https://arxiv.org/html/2406.16386v3",
       "content_type": "text/html; charset=utf-8",
-      "bytes_read": 366971,
-      "sha256": "90b5667fb2d78c81b6ab074110ae448c846ba75b06bc4ac8fa070d9df89da073",
-      "checked_at": "2026-10-10T10:53:12+00:00",
+      "bytes_read": 367206,
+      "sha256": "aad2143cccde88037422c9140ec4ac6ac5e259d21e8e1f3641ce187c41fc2c74",
+      "checked_at": "2026-10-14T13:56:07+00:00",
       "fragments": {
         "S5": true
       }
@@ -620,7 +771,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:12+00:00",
+          "at": "2026-10-14T13:56:07+00:00",
           "status": 200
         }
       ],
@@ -629,7 +780,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 300654,
       "sha256": "b07f351c497d8c53d1a3f38ef74ec42209a36c468104ee73ccee45585987b062",
-      "checked_at": "2026-10-10T10:53:12+00:00",
+      "checked_at": "2026-10-14T13:56:07+00:00",
       "fragments": {
         "S3": true
       }
@@ -639,7 +790,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:12+00:00",
+          "at": "2026-10-14T13:56:07+00:00",
           "status": 200
         }
       ],
@@ -648,9 +799,66 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 422967,
       "sha256": "c913cc2bc27898ab12132dc69504d20ec1a7f432d2a4b8c97850f6f5828144f9",
-      "checked_at": "2026-10-10T10:53:12+00:00",
+      "checked_at": "2026-10-14T13:56:07+00:00",
       "fragments": {
         "S4": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2506.13663v1",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:56:07+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2506.13663v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 175854,
+      "sha256": "97e540e8e0f692b9342f00e4741a8e38a9edf19746a25a83c2d8c59006e24dca",
+      "checked_at": "2026-10-14T13:56:07+00:00",
+      "fragments": {
+        "S2": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2508.16763v1",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:54:54+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2508.16763v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 504985,
+      "sha256": "84adcdb9a0377b30d9064a25428b9675fbc45fbaf209d955e9a0f2ec0695076b",
+      "checked_at": "2026-10-14T13:54:54+00:00",
+      "fragments": {
+        "S3.SS2": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2510.15306v1",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:54:54+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2510.15306v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 469944,
+      "sha256": "54583255e0813f2400af98fd50f509e239d9adc7884181e3729e2dcdf2a1dfcd",
+      "checked_at": "2026-10-14T13:54:54+00:00",
+      "fragments": {
+        "S3": true
       }
     },
     {
@@ -658,7 +866,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:13+00:00",
+          "at": "2026-10-14T13:54:54+00:00",
           "status": 200
         }
       ],
@@ -667,7 +875,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 293238,
       "sha256": "4702493756a0dcab38f82fa54794c2d939d0e1be5a631624b144c70b0789a210",
-      "checked_at": "2026-10-10T10:53:13+00:00",
+      "checked_at": "2026-10-14T13:54:54+00:00",
       "fragments": {
         "S3": true
       }
@@ -677,7 +885,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:15+00:00",
+          "at": "2026-10-14T13:54:54+00:00",
           "status": 200
         }
       ],
@@ -686,7 +894,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 444222,
       "sha256": "994c3293736b92a994ebb4fd1d3bb1f0ec42ae126f420b90a989470d02b2c0cb",
-      "checked_at": "2026-10-10T10:53:15+00:00",
+      "checked_at": "2026-10-14T13:54:54+00:00",
       "fragments": {
         "S2": true
       }
@@ -696,16 +904,16 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:15+00:00",
+          "at": "2026-10-14T13:54:57+00:00",
           "status": 200
         }
       ],
       "status": 200,
       "final_url": "https://arxiv.org/html/2602.05998v1",
       "content_type": "text/html; charset=utf-8",
-      "bytes_read": 372830,
-      "sha256": "1b4b0ac95730528d917b44ad0f8f87a35ec714955b12624d695a258afb85b6c7",
-      "checked_at": "2026-10-10T10:53:15+00:00",
+      "bytes_read": 373065,
+      "sha256": "3c9bf2c1d3676e00f318ec60e8cae0d70350ea3a8b82007f26ba701c8f8384d8",
+      "checked_at": "2026-10-14T13:54:57+00:00",
       "fragments": {
         "S4": true
       }
@@ -715,7 +923,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:16+00:00",
+          "at": "2026-10-14T13:54:57+00:00",
           "status": 200
         }
       ],
@@ -724,7 +932,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 284291,
       "sha256": "f06e5fe5277488ae9e01e5cbbcf01c09c0d3810ca6aec8ba1556751e46f8ceb8",
-      "checked_at": "2026-10-10T10:53:16+00:00",
+      "checked_at": "2026-10-14T13:54:57+00:00",
       "fragments": {
         "S3": true
       }
@@ -734,16 +942,35 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:17+00:00",
+          "at": "2026-10-14T13:55:00+00:00",
           "status": 200
         }
       ],
       "status": 200,
       "final_url": "https://arxiv.org/html/2604.05839v1",
       "content_type": "text/html; charset=utf-8",
-      "bytes_read": 694984,
-      "sha256": "3ab787ef6f22b08647853baed4a035cd0ca278b816f6c6b8531dfc95fb66b129",
-      "checked_at": "2026-10-10T10:53:17+00:00",
+      "bytes_read": 695219,
+      "sha256": "3d77b0a1fade103801e60a04baae284218aa41abfa242fe6ad97cda6055e8d80",
+      "checked_at": "2026-10-14T13:55:00+00:00",
+      "fragments": {
+        "S3": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2605.26144v4",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:00+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2605.26144v4",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 341485,
+      "sha256": "28924b3e020157904eaac897d9e13f570fc165027e57456e411ccf4709585909",
+      "checked_at": "2026-10-14T13:55:00+00:00",
       "fragments": {
         "S3": true
       }
@@ -753,7 +980,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:19+00:00",
+          "at": "2026-10-14T13:55:03+00:00",
           "status": 200
         }
       ],
@@ -762,7 +989,26 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 220727,
       "sha256": "96d623ee3580e1a55d39ac462ea8b8eabc8ea2a2a6e8fa27741d7750680f15ba",
-      "checked_at": "2026-10-10T10:53:19+00:00",
+      "checked_at": "2026-10-14T13:55:03+00:00",
+      "fragments": {
+        "S3": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2608.03691v1",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:03+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2608.03691v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 369562,
+      "sha256": "0fcbb244b9a33f593def4288195222352f0baab96982fafcb18977460b9055ca",
+      "checked_at": "2026-10-14T13:55:03+00:00",
       "fragments": {
         "S3": true
       }
@@ -772,7 +1018,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:19+00:00",
+          "at": "2026-10-14T13:55:03+00:00",
           "status": 200
         }
       ],
@@ -781,7 +1027,26 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 364621,
       "sha256": "9101fd49de67ec82536eda6eeaf28401f549bef9117770a8cbd2891cec63f3c6",
-      "checked_at": "2026-10-10T10:53:19+00:00",
+      "checked_at": "2026-10-14T13:55:03+00:00",
+      "fragments": {
+        "S3": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2609.34309v1",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:05+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2609.34309v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 338069,
+      "sha256": "81cbd9c846d4ba86ae7ef61cf0e74098aea9528053ea6524a0d1623d1518ede1",
+      "checked_at": "2026-10-14T13:55:05+00:00",
       "fragments": {
         "S3": true
       }
@@ -791,18 +1056,37 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:19+00:00",
+          "at": "2026-10-14T13:55:06+00:00",
           "status": 200
         }
       ],
       "status": 200,
       "final_url": "https://arxiv.org/html/2609.34587v1",
       "content_type": "text/html; charset=utf-8",
-      "bytes_read": 320388,
-      "sha256": "17bd8782bd27f7490d5291aa4835340ad02370feccf5cbc60ba1e89ca7bf210b",
-      "checked_at": "2026-10-10T10:53:19+00:00",
+      "bytes_read": 320623,
+      "sha256": "fcc7a6f2f5e73346388ff09222eba14d32049160fdf31406066f9b30c9a61772",
+      "checked_at": "2026-10-14T13:55:06+00:00",
       "fragments": {
         "S4": true
+      }
+    },
+    {
+      "url": "https://arxiv.org/html/2610.02617v1",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:06+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2610.02617v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 847290,
+      "sha256": "8783ea9a2e511fcea73b5db420272b729369cf1a9cbda5c69388a8cd3ad49fe0",
+      "checked_at": "2026-10-14T13:55:06+00:00",
+      "fragments": {
+        "S3.SS2": true
       }
     },
     {
@@ -810,7 +1094,7 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:22+00:00",
+          "at": "2026-10-14T13:55:08+00:00",
           "status": 200
         }
       ],
@@ -819,7 +1103,7 @@
       "content_type": "text/html; charset=utf-8",
       "bytes_read": 339679,
       "sha256": "80506bb84d8b2e8fea56ff9bc360180bb65a6eef454294d737a67c3b2bd01656",
-      "checked_at": "2026-10-10T10:53:22+00:00",
+      "checked_at": "2026-10-14T13:55:08+00:00",
       "fragments": {
         "S4": true
       }
@@ -829,16 +1113,75 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:22+00:00",
+          "at": "2026-10-14T13:55:08+00:00",
           "status": 200
         }
       ],
       "status": 200,
       "final_url": "https://developers.googleblog.com/stitch-a-new-way-to-design-uis/",
       "content_type": "text/html; charset=utf-8",
-      "bytes_read": 40202,
-      "sha256": "0c2410d312775fdb38b5c99c861284b356bce5269e3c9e3b9a473e6b2439dc19",
-      "checked_at": "2026-10-10T10:53:22+00:00",
+      "bytes_read": 38048,
+      "sha256": "b4a2c3095ebb8537eef3656b88b6101b8e045e54f97846afc25bea0bd5df219e",
+      "checked_at": "2026-10-14T13:55:08+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:10+00:00",
+          "error": "<urlopen error Remote end closed connection without response>"
+        },
+        {
+          "at": "2026-10-14T13:55:21+00:00",
+          "status": 200
+        }
+      ],
+      "checked_at": "2026-10-14T13:55:21+00:00",
+      "status": 200,
+      "final_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 380928,
+      "sha256": "f238ed52ba248085948438b04231474a61dfef9fef78e5c17675b34bea3b48fe",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/f827e067b0cea88bd99ae6de7f70f0a24aef00c5/LICENSE",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:10+00:00",
+          "error": "<urlopen error Remote end closed connection without response>"
+        },
+        {
+          "at": "2026-10-14T13:55:21+00:00",
+          "status": 200
+        }
+      ],
+      "checked_at": "2026-10-14T13:55:21+00:00",
+      "status": 200,
+      "final_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/f827e067b0cea88bd99ae6de7f70f0a24aef00c5/LICENSE",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 303888,
+      "sha256": "10c3bbb7b26e4a45eb8c25ecd06975a271466cb0f8b22cac44656e2343c19b0b",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/f827e067b0cea88bd99ae6de7f70f0a24aef00c5/README.md",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:12+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/f827e067b0cea88bd99ae6de7f70f0a24aef00c5/README.md",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 283824,
+      "sha256": "eb4608ea184739e6662327f7cec097f4633f2eb890fa8f363f3bd9bc2a302a7d",
+      "checked_at": "2026-10-14T13:55:12+00:00",
       "fragments": {}
     },
     {
@@ -846,16 +1189,343 @@
       "ok": true,
       "attempts": [
         {
-          "at": "2026-10-10T10:53:22+00:00",
+          "at": "2026-10-14T13:55:13+00:00",
           "status": 200
         }
       ],
       "status": 200,
       "final_url": "https://github.com/abi/screenshot-to-code",
       "content_type": "text/html; charset=utf-8",
-      "bytes_read": 353202,
-      "sha256": "64e5ddd43b4bdbb9108bb94e0085888d01c0ed632bc08b6329b6d7b03b5ecdbf",
-      "checked_at": "2026-10-10T10:53:22+00:00",
+      "bytes_read": 347138,
+      "sha256": "16827554a5424a682fcf001fc14bd33e6d988ac6594e8085bd1af7cd7b196612",
+      "checked_at": "2026-10-14T13:55:13+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/abi/screenshot-to-code/blob/a8139779f7c5ae231b7f2a86fa7f83ddc5f7badc/LICENSE",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:17+00:00",
+          "error": "HTTP Error 503: Service Unavailable"
+        },
+        {
+          "at": "2026-10-14T13:55:18+00:00",
+          "status": 200
+        }
+      ],
+      "checked_at": "2026-10-14T13:55:18+00:00",
+      "status": 200,
+      "final_url": "https://github.com/abi/screenshot-to-code/blob/a8139779f7c5ae231b7f2a86fa7f83ddc5f7badc/LICENSE",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 221927,
+      "sha256": "409968a52b4bcd7f8ae2cefe9c2ac94d10deb017b77c13d61536e4a972097eb0",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/abi/screenshot-to-code/blob/a8139779f7c5ae231b7f2a86fa7f83ddc5f7badc/README.md",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:21+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/abi/screenshot-to-code/blob/a8139779f7c5ae231b7f2a86fa7f83ddc5f7badc/README.md",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 290816,
+      "sha256": "9b2437f8248fda2791142810ba6b7f466658bc05823085291e45570098424e0c",
+      "checked_at": "2026-10-14T13:55:21+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/aidenybai/react-grab",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:24+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/aidenybai/react-grab",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 337980,
+      "sha256": "e0e8610cd3a11104236aeb1b77fd87b800859bc23961dab93b35add0da78e3aa",
+      "checked_at": "2026-10-14T13:55:24+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/aidenybai/react-grab/blob/ea4bbec9e80f4802e8ae19ad18431edb9ddbb670/LICENSE",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:24+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/aidenybai/react-grab/blob/ea4bbec9e80f4802e8ae19ad18431edb9ddbb670/LICENSE",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 219793,
+      "sha256": "f35623ec46fb174336900757e54cf88c3e86414becae6498747852aa4bfb5737",
+      "checked_at": "2026-10-14T13:55:24+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/aidenybai/react-grab/blob/ea4bbec9e80f4802e8ae19ad18431edb9ddbb670/README.md",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:25+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/aidenybai/react-grab/blob/ea4bbec9e80f4802e8ae19ad18431edb9ddbb670/README.md",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 289294,
+      "sha256": "a8be4d5792b23caf7bbe2ec76d64309408ee325cbf3af52fd9bae9549e8f6c52",
+      "checked_at": "2026-10-14T13:55:25+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/benjitaylor/agentation/blob/0e3236eb1a0f5577852ab7bb5121f5dd46d42f1d/LICENSE",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:27+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/benjitaylor/agentation/blob/0e3236eb1a0f5577852ab7bb5121f5dd46d42f1d/LICENSE",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 223957,
+      "sha256": "15e52384bb1eba4a0e405d9eab2a5a3ef6660fd6a9bfdcd1e4da101f75e16629",
+      "checked_at": "2026-10-14T13:55:27+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/gulucaptain/MaLiang-Harness/blob/c811b47f63ff1748d85b2dc2e9c4169385d4b46f/README.md",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:27+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/gulucaptain/MaLiang-Harness/blob/c811b47f63ff1748d85b2dc2e9c4169385d4b46f/README.md",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 333956,
+      "sha256": "8098fa37bc687deca3b70f09fc5f90a12a36208573d5c09a37b2b04d48c05c0d",
+      "checked_at": "2026-10-14T13:55:27+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/kaboider/VISTA_Bench/blob/dce2756fdeca450310af91034e78bd57203a001a/README.md",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:28+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/kaboider/VISTA_Bench/blob/dce2756fdeca450310af91034e78bd57203a001a/README.md",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 289005,
+      "sha256": "620d6c85f8e8a92285f68fe1c9fe80c57a4ff13842c49f394f8b87ddb39dbcaa",
+      "checked_at": "2026-10-14T13:55:28+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:29+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/microsoft/playwright-mcp",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 630060,
+      "sha256": "6c5dd43fc950b4a75118d7118aa2ff5fccc069ac1898e39fc702a262914d1c09",
+      "checked_at": "2026-10-14T13:55:29+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/microsoft/playwright-mcp/blob/b8b4183e099f136cbec0388a6088d4aa2f6b9685/LICENSE",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:30+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/microsoft/playwright-mcp/blob/b8b4183e099f136cbec0388a6088d4aa2f6b9685/LICENSE",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 300072,
+      "sha256": "9c0064cd70011f954228d5eff60676354db9bc6c61fd85dbefac7887c87aad65",
+      "checked_at": "2026-10-14T13:55:30+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/microsoft/playwright-mcp/blob/b8b4183e099f136cbec0388a6088d4aa2f6b9685/README.md",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:30+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/microsoft/playwright-mcp/blob/b8b4183e099f136cbec0388a6088d4aa2f6b9685/README.md",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 673828,
+      "sha256": "02f0ab83a425ca94cbf26ac24c2fda47d83ab03eccbe21673915b4ec5d7b6b5a",
+      "checked_at": "2026-10-14T13:55:30+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/onlook-dev/onlook",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:33+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/onlook-dev/onlook",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 396038,
+      "sha256": "6c69186670e11ce766a6c23e02a55a9abd7eadd8e6667a156b1d57809dfe69e9",
+      "checked_at": "2026-10-14T13:55:33+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/onlook-dev/onlook/blob/423e2e924366419e418ee049093872d535eea41a/LICENSE.md",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:33+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/onlook-dev/onlook/blob/423e2e924366419e418ee049093872d535eea41a/LICENSE.md",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 252036,
+      "sha256": "ce7ee2dd74c594a2a4745dfee26d19b1cdfa72f183c15203213bdb99bed6bfc9",
+      "checked_at": "2026-10-14T13:55:33+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/onlook-dev/onlook/blob/423e2e924366419e418ee049093872d535eea41a/README.md",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:34+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/onlook-dev/onlook/blob/423e2e924366419e418ee049093872d535eea41a/README.md",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 328174,
+      "sha256": "bea3209b701c6ec04e72dff6cbc1536be7aa590ab87190da8626f0c192b34397",
+      "checked_at": "2026-10-14T13:55:34+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/sony/web_gen_v_bench/blob/cd13ad84315375bc97238bd0b1db7b5420417079/README.md",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:36+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/sony/web_gen_v_bench/blob/cd13ad84315375bc97238bd0b1db7b5420417079/README.md",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 293513,
+      "sha256": "831a0dc8f95eb442bc30d540e35bdac481c329a71cde9dcc67a5359ae6c7a0dd",
+      "checked_at": "2026-10-14T13:55:36+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/stagewise-io/stagewise",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:36+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/stagewise-io/stagewise",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 369764,
+      "sha256": "fa240b74891f543e29c6022c489a6aba9b8178be3844d618865fec08796b1250",
+      "checked_at": "2026-10-14T13:55:36+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/stagewise-io/stagewise/blob/43c6b252bbded96f37dcec6d858bd346d17f545b/LICENSE",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:37+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/stagewise-io/stagewise/blob/43c6b252bbded96f37dcec6d858bd346d17f545b/LICENSE",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 509432,
+      "sha256": "c5dce46b2bfc9dab3e725d27abb6e5e7089ff2c19408e85c7cf252752a2ca889",
+      "checked_at": "2026-10-14T13:55:37+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/stagewise-io/stagewise/blob/43c6b252bbded96f37dcec6d858bd346d17f545b/README.md",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:37+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/stagewise-io/stagewise/blob/43c6b252bbded96f37dcec6d858bd346d17f545b/README.md",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 278811,
+      "sha256": "e536c0da6559c9c4825fe78c0727f84cb0ff9e9fc2a45eadce89c3c2f816ce00",
+      "checked_at": "2026-10-14T13:55:37+00:00",
+      "fragments": {}
+    },
+    {
+      "url": "https://github.com/yunyuntsai/webuiproof-benchmark/blob/fa59898a5305672cdb28b29965cb87bca4204438/README.md",
+      "ok": true,
+      "attempts": [
+        {
+          "at": "2026-10-14T13:55:39+00:00",
+          "status": 200
+        }
+      ],
+      "status": 200,
+      "final_url": "https://github.com/yunyuntsai/webuiproof-benchmark/blob/fa59898a5305672cdb28b29965cb87bca4204438/README.md",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 333290,
+      "sha256": "d992b30de6c0523620c17348f63ba2a9e670890914d43bd516aacafc1b249860",
+      "checked_at": "2026-10-14T13:55:39+00:00",
       "fragments": {}
     }
   ]

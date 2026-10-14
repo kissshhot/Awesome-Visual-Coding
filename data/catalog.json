@@ -1,6 +1,6 @@
 {
-  "cutoff": "2026-10-10",
-  "review_date": "2026-10-10",
+  "cutoff": "2026-10-14",
+  "review_date": "2026-10-14",
   "template_commit": "5d575fc3709c341310e93573daeea9ccdf746425",
   "categories": [
     {
@@ -32,8 +32,8 @@
       "description": "Different inputs, outputs and success criteria; these benchmarks are not interchangeable."
     },
     {
-      "name": "Adjacent Image-to-Graphics Research",
-      "description": "A bounded extension for transferable rendering-based supervision; no claim of comprehensive graphics coverage."
+      "name": "Adjacent Graphics Coding",
+      "description": "A bounded extension for rendering-based supervision and programmable graphics harnesses; no claim of comprehensive graphics coverage."
     }
   ],
   "entries": [
@@ -72,7 +72,8 @@
       "english": "Organizes multimodal code intelligence by the role of code and by application domain, including UI generation, scientific visualization and structured graphics. Its discussion of semantic and interaction evidence provides a broader context than this UI-centered catalog.",
       "chinese": "按代码的作用和应用领域梳理多模态代码智能，涵盖 UI 生成、科学可视化和结构化图形。其对语义与交互证据的讨论，为本目录以 UI 为中心的范围提供更广泛的背景。",
       "evidence_note": "A broader survey, included for orientation; robotics and other frontier domains in the survey are outside this catalog.",
-      "metadata_sha256": "d21d266de759fa915e5dde9e3b9ca15c9285a3d2ee6a55da1d17482530014f44"
+      "metadata_sha256": "d21d266de759fa915e5dde9e3b9ca15c9285a3d2ee6a55da1d17482530014f44",
+      "review_date": "2026-10-10"
     },
     {
       "id": "1705.07962",
@@ -94,7 +95,8 @@
       "metadata_sha256": "5ccdabbb57f5b3f226f40adf4645bbac57d252ae30dd35d22be0e14498f7ddd4",
       "evidence_url": "https://arxiv.org/html/1705.07962v2#S3",
       "sections": "Sections 3.1–3.3",
-      "full_text_sha256": "20d30fb27be026324441faf53536da2930371b469fd2b2479445b299cce6bb4a"
+      "full_text_sha256": "20d30fb27be026324441faf53536da2930371b469fd2b2479445b299cce6bb4a",
+      "review_date": "2026-10-10"
     },
     {
       "id": "1802.02312",
@@ -120,7 +122,8 @@
       "metadata_sha256": "e4583926237b0fd8ff2a29044674d1717d6f121728c49ea6532ca65c80f315cc",
       "evidence_url": "https://arxiv.org/html/1802.02312v2#S3",
       "sections": "Section III overview and III-A",
-      "full_text_sha256": "74c767fabf637548cf69849ecd526191eb9482da59f7785577d6a67267c8cb78"
+      "full_text_sha256": "74c767fabf637548cf69849ecd526191eb9482da59f7785577d6a67267c8cb78",
+      "review_date": "2026-10-10"
     },
     {
       "id": "2403.09029",
@@ -144,7 +147,8 @@
       "metadata_sha256": "a836a3f8bb01c77be53fb4f2a2ca8ae249b7cd40012571a6ac0c1afa7a636102",
       "evidence_url": "https://arxiv.org/html/2403.09029v1#S3",
       "sections": "Section 3",
-      "full_text_sha256": "515ea457068d3b9c0e693dcd43676f15a870b680923a478785d3c5b48c9d61bb"
+      "full_text_sha256": "515ea457068d3b9c0e693dcd43676f15a870b680923a478785d3c5b48c9d61bb",
+      "review_date": "2026-10-10"
     },
     {
       "id": "2404.06369",
@@ -178,7 +182,8 @@
       "metadata_sha256": "129f131f5429b1d9036c9d4148a954088e9a037d33c0f03c0bd0c0edb0b89243",
       "evidence_url": "https://arxiv.org/html/2404.06369v2#S2",
       "sections": "Section 2.1",
-      "full_text_sha256": "3a5dae728d6d331e185db6b33c2ba7131c30a2cd87ab6e2d482d76150be8fcb3"
+      "full_text_sha256": "3a5dae728d6d331e185db6b33c2ba7131c30a2cd87ab6e2d482d76150be8fcb3",
+      "review_date": "2026-10-10"
     },
     {
       "id": "2406.20098",
@@ -213,7 +218,8 @@
       "english": "Uses language models to expand webpage–code data and adds question–answer pairs about webpage content. Couples instruction-tuning data with evaluations of webpage understanding and screenshot-to-HTML generation, keeping these two capabilities distinct.",
       "chinese": "利用语言模型扩充网页与代码数据，并加入关于网页内容的问答对。将指令微调数据与网页理解、截图到 HTML 生成评测结合，同时区分这两种能力。",
       "evidence_note": "Metadata and abstract only; construction details and experimental results were not method-reviewed.",
-      "metadata_sha256": "6a80a6f82b7f2289df7797171c7ccb3b0716cdd5f7a31134fa229e220dc93f83"
+      "metadata_sha256": "6a80a6f82b7f2289df7797171c7ccb3b0716cdd5f7a31134fa229e220dc93f83",
+      "review_date": "2026-10-10"
     },
     {
       "id": "2503.01619",
@@ -236,7 +242,8 @@
       "english": "Synthesizes frontend training data by extracting self-contained components, rendering them and generating descriptions, with evolution, waterfall and additive synthesis strategies. Trains a vision-language model for image-and-instruction-to-React generation and studies interpretation before coding.",
       "chinese": "通过提取自包含组件、渲染组件并生成描述来合成前端训练数据，并采用演化式、瀑布式和增量式合成策略。训练视觉语言模型完成图像与指令到 React 的生成，并研究先理解图像再编码的方式。",
       "evidence_note": "Abstract-level account; Flame-React-Eval is an associated evaluation asset, not a second counted paper.",
-      "metadata_sha256": "0dde9e934b4c9e0e0f9ae2202530c0620deb6af9f93e462116f7da3c1b4002ce"
+      "metadata_sha256": "0dde9e934b4c9e0e0f9ae2202530c0620deb6af9f93e462116f7da3c1b4002ce",
+      "review_date": "2026-10-10"
     },
     {
       "id": "2510.23538",
@@ -263,7 +270,8 @@
       "english": "Introduces a multimodal code synthesis toolkit and corpus spanning charts, interactive web UIs and code-driven animation. The model family supports text and visual coding settings; this entry includes the visual branch and does not equate every model variant with a vision-capable model.",
       "chinese": "提出多模态代码合成工具与语料，涵盖图表、交互式网页 UI 和代码驱动的动画。该模型系列支持文本与视觉编程场景；本条目收录其视觉分支，不将每个模型变体都视为具备视觉能力。",
       "evidence_note": "Scope restricted to visual-input and visual-output coding. No cross-benchmark superiority claim retained.",
-      "metadata_sha256": "718d82ee5d6dd499bf9ef78d14d0edd88e5b1d0a0317d7d7e4e649f00154f547"
+      "metadata_sha256": "718d82ee5d6dd499bf9ef78d14d0edd88e5b1d0a0317d7d7e4e649f00154f547",
+      "review_date": "2026-10-10"
     },
     {
       "id": "2406.16386",
@@ -291,7 +299,37 @@
       "metadata_sha256": "0b278991028a7fcd07de439a402c51fd81a1cba6924d5e733f9ecc3105ec7fbf",
       "evidence_url": "https://arxiv.org/html/2406.16386v3#S5",
       "sections": "Section 5 overview and 5.1",
-      "full_text_sha256": "90b5667fb2d78c81b6ab074110ae448c846ba75b06bc4ac8fa070d9df89da073"
+      "full_text_sha256": "90b5667fb2d78c81b6ab074110ae448c846ba75b06bc4ac8fa070d9df89da073",
+      "review_date": "2026-10-10"
+    },
+    {
+      "id": "2506.13663",
+      "label": "DesignCoder",
+      "category": "Layout-Aware and Tool-Grounded Generation",
+      "kind": "Method paper",
+      "title": "DesignCoder: Hierarchy-Aware and Self-Correcting UI Code Generation with Large Language Models",
+      "authors": [
+        "Yunnong Chen",
+        "Shixian Ding",
+        "YingYing Zhang",
+        "Wenkai Chen",
+        "Jinzhou Du",
+        "Lingyun Sun",
+        "Liuqing Chen"
+      ],
+      "first_submitted": "2025-06-16",
+      "version": "v1",
+      "revised": "2025-06-16",
+      "review_date": "2026-10-14",
+      "source": "https://arxiv.org/abs/2506.13663",
+      "status": "M",
+      "english": "Combines screenshots with design metadata to group UI regions, infer component hierarchies and generate React Native code. Uses Appium screenshots and component attributes for localized visual comparison and repair before merging components. Event-handler bodies are left unspecified, so visual reconstruction does not establish complete application behavior.",
+      "chinese": "结合截图与设计元数据划分 UI 区域、推断组件层级并生成 React Native 代码。利用 Appium 截图及组件属性进行局部视觉比较与修复，再合并组件。事件处理函数体未被具体实现，因此视觉重建不能证明完整的应用行为。",
+      "evidence_note": "Read UI Grouping Chain, hierarchical generation and visual self-correction. Inputs include IDs, types, bounding boxes and styles from design metadata; event-handler bodies are not implemented by this pipeline.",
+      "metadata_sha256": "c5f154c2e30328d8c5c57d4c41447f24f2ed4cb70237694b0053cf4adbe80a83",
+      "sections": "Section 2 (2.1–2.3)",
+      "evidence_url": "https://arxiv.org/html/2506.13663v1#S2",
+      "full_text_sha256": "97e540e8e0f692b9342f00e4741a8e38a9edf19746a25a83c2d8c59006e24dca"
     },
     {
       "id": "2507.22827",
@@ -316,7 +354,8 @@
       "english": "Separates screenshot-to-code into visual grounding, layout planning and code generation using specialized agents. Also uses the pipeline to synthesize image–code pairs for supervised fine-tuning and reinforcement learning of an open model.",
       "chinese": "借助专门的智能体，将截图到代码拆分为视觉定位、布局规划和代码生成。还利用该流程合成图像与代码对，以对开放模型进行监督微调和强化学习。",
       "evidence_note": "v2 abstract checked; code availability and reported performance were not independently reproduced.",
-      "metadata_sha256": "3a56a291db60120f1d80466df89b3b50c05c5146c4dfbad59ae5b024e6370e8f"
+      "metadata_sha256": "3a56a291db60120f1d80466df89b3b50c05c5146c4dfbad59ae5b024e6370e8f",
+      "review_date": "2026-10-10"
     },
     {
       "id": "2508.03560",
@@ -347,7 +386,8 @@
       "english": "Divides webpage designs into image blocks and uses Layout-as-Thought prompting to generate their code. It compares absolute-position and model-based assembly through dynamic selection, and introduces CC-HARD to study complex layouts.",
       "chinese": "将网页设计划分为图像块，并通过 Layout-as-Thought 提示生成各块代码。借助动态选择比较绝对定位与模型驱动的组装方式，并引入 CC-HARD 研究复杂布局。",
       "evidence_note": "Abstract-level mechanism; CC-HARD is kept with its originating paper to avoid double counting.",
-      "metadata_sha256": "e1d57e5bd8b1b7db70d9c4b8de43d156f00f5f8d3a99d380792118b59a6ecf0b"
+      "metadata_sha256": "e1d57e5bd8b1b7db70d9c4b8de43d156f00f5f8d3a99d380792118b59a6ecf0b",
+      "review_date": "2026-10-10"
     },
     {
       "id": "2608.12611",
@@ -373,7 +413,36 @@
       "english": "Extracts visible text and color evidence, performs layout and optional chart reasoning, then directly generates JSX for individual widgets. Its focus is selective tool grounding at widget scale, rather than assuming a fixed component schema or full-site reconstruction.",
       "chinese": "提取可见文本与颜色证据，进行布局及可选的图表推理，再直接为单个组件生成 JSX。其重点是在组件尺度上选择性地借助工具获取依据，而非假定固定组件模式或重建完整网站。",
       "evidence_note": "Abstract checked. Widget-scale results should not be generalized to full applications.",
-      "metadata_sha256": "7b9396862f29d8e0fe1388cd015caf99472ef66a038ff1f62895dfee85921624"
+      "metadata_sha256": "7b9396862f29d8e0fe1388cd015caf99472ef66a038ff1f62895dfee85921624",
+      "review_date": "2026-10-10"
+    },
+    {
+      "id": "2406.07739",
+      "label": "UICoder",
+      "category": "Render-Feedback Optimization",
+      "kind": "Method and model paper",
+      "title": "UICoder: Finetuning Large Language Models to Generate User Interface Code through Automated Feedback",
+      "authors": [
+        "Jason Wu",
+        "Eldon Schoop",
+        "Alan Leung",
+        "Titus Barik",
+        "Jeffrey P. Bigham",
+        "Jeffrey Nichols"
+      ],
+      "first_submitted": "2024-06-11",
+      "version": "v1",
+      "revised": "2024-06-11",
+      "review_date": "2026-10-14",
+      "source": "https://arxiv.org/abs/2406.07739",
+      "status": "M",
+      "english": "Improves text-to-SwiftUI generation by compiling and rendering self-generated candidates, then using visual scores and deduplication to filter training data and guide preference learning. The visual signal acts during data selection and model training; inference does not require a reference screenshot.",
+      "chinese": "通过编译和渲染自行生成的候选代码，再利用视觉评分和去重筛选训练数据、引导偏好学习，改进文本到 SwiftUI 的生成。视觉信号作用于数据选择与模型训练阶段；推理不要求输入参考截图。",
+      "evidence_note": "Read filtering, visual scoring, deduplication and training subsections, including 3.3.1 and 3.4.1. SwiftUI is a native-UI extension; visual feedback here is used in training, not a required inference input.",
+      "metadata_sha256": "60cb01c5373d715536fe1beef2b200eeade0998e6f558257c0b67f39c60b50f0",
+      "sections": "Sections 3.3–3.4",
+      "evidence_url": "https://arxiv.org/html/2406.07739v1#S3.SS3",
+      "full_text_sha256": "85ee3413c090b98716a7736ed37e556523b79d286af44fc635b154ab01089ec4"
     },
     {
       "id": "2510.11498",
@@ -400,7 +469,44 @@
       "english": "Trains a coding agent with screenshot-based rewards and actionable feedback from a multimodal critic, rejecting non-improving revisions through Forced Optimization. The described inference procedure removes the critic and uses self-editing, so training-time visual feedback is not continuous inference-time critique.",
       "chinese": "使用基于截图的奖励及多模态评审器提供的可执行反馈训练编程智能体，并通过 Forced Optimization 拒绝未带来改进的修订。所述推理流程移除评审器并采用自编辑，因此训练期视觉反馈不等同于推理期持续视觉评审。",
       "evidence_note": "The training/inference distinction is explicit in the primary abstract; no stronger guarantee about deployment behavior is inferred.",
-      "metadata_sha256": "c1e94a6de772def1ff9e8b4e07b4fe0d8fe6fd456645e7482aae01858bd3c23e"
+      "metadata_sha256": "c1e94a6de772def1ff9e8b4e07b4fe0d8fe6fd456645e7482aae01858bd3c23e",
+      "review_date": "2026-10-10"
+    },
+    {
+      "id": "2510.15306",
+      "label": "WebGen-V Bench",
+      "category": "Render-Feedback Optimization",
+      "kind": "Benchmark and framework paper",
+      "title": "WebGen-V Bench: Structured Representation for Enhancing Visual Design in LLM-based Web Generation and Evaluation",
+      "authors": [
+        "Kuang-Da Wang",
+        "Zhao Wang",
+        "Yotaro Shimose",
+        "Wei-Yao Wang",
+        "Shingo Takamatsu"
+      ],
+      "first_submitted": "2025-10-17",
+      "version": "v1",
+      "revised": "2025-10-17",
+      "review_date": "2026-10-14",
+      "source": "https://arxiv.org/abs/2510.15306",
+      "status": "M",
+      "english": "Decomposes webpages into sections and constructs grounded design instructions from page structure and visual evidence. Evaluates generated sections against those instructions with a multimodal judge and supports targeted refinement from low-scoring sections. This is instruction-grounded visual assessment, not pixel matching against a reference screenshot.",
+      "chinese": "将网页分解为区块，并根据页面结构与视觉证据构建设计指令。使用多模态评审器对照指令评估生成的区块，支持依据低分区块进行针对性修订。这属于基于指令的视觉评估，而非与参考截图逐像素匹配。",
+      "evidence_note": "Read collection, section representation, grounded instruction generation, evaluation and refinement algorithms. Judge feedback does not certify functional behavior. The public implementation is indexed separately without adding another paper.",
+      "metadata_sha256": "daf9727dedec1a8e72c99b31234d0bff5417eaf99ddec3220c4c896a80f2c14a",
+      "sections": "Section 3 (3.1–3.2 and Algorithms 1–2)",
+      "evidence_url": "https://arxiv.org/html/2510.15306v1#S3",
+      "full_text_sha256": "54583255e0813f2400af98fd50f509e239d9adc7884181e3729e2dcdf2a1dfcd",
+      "implementation": {
+        "repo": "sony/web_gen_v_bench",
+        "commit": "cd13ad84315375bc97238bd0b1db7b5420417079",
+        "readme_url": "https://github.com/sony/web_gen_v_bench/blob/cd13ad84315375bc97238bd0b1db7b5420417079/README.md",
+        "readme_sha256": "e865239123afb717875ba3e31bfcc8bf1683511a1cbdc73169efbaad287910a1",
+        "review_date": "2026-10-14",
+        "role": "Section-based visual evaluation and refinement",
+        "evidence_note": "Documents `run_demo.py` and `pipeline/eval_run.py` for build, generation, evaluation and refinement. This snapshot defaults to Gemini; only a sample URL list ships, with the full list available on request."
+      }
     },
     {
       "id": "2511.08195",
@@ -429,7 +535,8 @@
       "metadata_sha256": "ab4fc55ce4f2269c0d883cba50fe9ef8cf68571622b7b530c21e0edf0d12e790",
       "evidence_url": "https://arxiv.org/html/2511.08195v4#S2",
       "sections": "Sections 2.1–2.3 through the relative-preference objective",
-      "full_text_sha256": "09d84bebd41678e7976820366a1e8d1b10da1089f46ba6d29ee2a23a8bbbc480"
+      "full_text_sha256": "09d84bebd41678e7976820366a1e8d1b10da1089f46ba6d29ee2a23a8bbbc480",
+      "review_date": "2026-10-10"
     },
     {
       "id": "2602.05998",
@@ -453,7 +560,8 @@
       "metadata_sha256": "31f3d11911d3d249ca057d0cf4a44e6ed869e3ff1bbb3a8449d1c0f92823765c",
       "evidence_url": "https://arxiv.org/html/2602.05998v1#S4",
       "sections": "Sections 4.1–4.3 through the relative-improvement score",
-      "full_text_sha256": "1b4b0ac95730528d917b44ad0f8f87a35ec714955b12624d695a258afb85b6c7"
+      "full_text_sha256": "1b4b0ac95730528d917b44ad0f8f87a35ec714955b12624d695a258afb85b6c7",
+      "review_date": "2026-10-10"
     },
     {
       "id": "2604.05839",
@@ -480,7 +588,8 @@
       "metadata_sha256": "68831a1484a73ffd7bbb918a0bbf954165acb03a11efbcd1ceae63b63a1ac20f",
       "evidence_url": "https://arxiv.org/html/2604.05839v1#S3",
       "sections": "Sections 3.1–3.3 introduction and Algorithm 1",
-      "full_text_sha256": "3ab787ef6f22b08647853baed4a035cd0ca278b816f6c6b8531dfc95fb66b129"
+      "full_text_sha256": "3ab787ef6f22b08647853baed4a035cd0ca278b816f6c6b8531dfc95fb66b129",
+      "review_date": "2026-10-10"
     },
     {
       "id": "2608.24138",
@@ -514,7 +623,8 @@
       "metadata_sha256": "d65cfa841d5672bca3a91612deeee3398f9ea2757f7d1f487a9cc23103281c83",
       "evidence_url": "https://arxiv.org/html/2608.24138v1#S3",
       "sections": "Sections 3.1–3.3 before the results table",
-      "full_text_sha256": "9101fd49de67ec82536eda6eeaf28401f549bef9117770a8cbd2891cec63f3c6"
+      "full_text_sha256": "9101fd49de67ec82536eda6eeaf28401f549bef9117770a8cbd2891cec63f3c6",
+      "review_date": "2026-10-10"
     },
     {
       "id": "1608.02829",
@@ -537,7 +647,8 @@
       "metadata_sha256": "53a8f38a11dba5ac51dc4809b3a6ee1ea24c69e72480a3eef18f91236e2439cd",
       "evidence_url": "https://arxiv.org/html/1608.02829v1#S2",
       "sections": "Section 2",
-      "full_text_sha256": "a66cb5d159b6989027ee9dc1c703eb4914e223679ee4dd488b23ccbf0d7764ea"
+      "full_text_sha256": "a66cb5d159b6989027ee9dc1c703eb4914e223679ee4dd488b23ccbf0d7764ea",
+      "review_date": "2026-10-10"
     },
     {
       "id": "2502.03719",
@@ -561,7 +672,8 @@
       "metadata_sha256": "a90423bec4a1b6b96aa17564a8ba49b95cc126ca7696f8d4174cbb778913f04e",
       "evidence_url": "https://arxiv.org/html/2502.03719v2#S3",
       "sections": "Section 3",
-      "full_text_sha256": "b07f351c497d8c53d1a3f38ef74ec42209a36c468104ee73ccee45585987b062"
+      "full_text_sha256": "b07f351c497d8c53d1a3f38ef74ec42209a36c468104ee73ccee45585987b062",
+      "review_date": "2026-10-10"
     },
     {
       "id": "2511.06251",
@@ -591,7 +703,8 @@
       "metadata_sha256": "c8abb8a3c9dc68b763875cb86e20cb37822bdb985e34d0b394b74401fe79307b",
       "evidence_url": "https://arxiv.org/html/2511.06251v1#S3",
       "sections": "Section 3 overview, environment and 3.1",
-      "full_text_sha256": "4702493756a0dcab38f82fa54794c2d939d0e1be5a631624b144c70b0789a210"
+      "full_text_sha256": "4702493756a0dcab38f82fa54794c2d939d0e1be5a631624b144c70b0789a210",
+      "review_date": "2026-10-10"
     },
     {
       "id": "2403.03163",
@@ -618,7 +731,8 @@
       "metadata_sha256": "1215f69458036e64690b8c69adc7a7e47aa0e1135eec4afacb3764d875c23d7d",
       "evidence_url": "https://arxiv.org/html/2403.03163v3#S2",
       "sections": "Sections 2.1–2.3 through element matching",
-      "full_text_sha256": "ac4cec0e32819c47656f833b93d6f97069cb20c797a53352d738f9ae34335d38"
+      "full_text_sha256": "ac4cec0e32819c47656f833b93d6f97069cb20c797a53352d738f9ae34335d38",
+      "review_date": "2026-10-10"
     },
     {
       "id": "2410.16232",
@@ -639,7 +753,8 @@
       "english": "Tests conversion of rough sketches into webpage prototypes and supports multi-turn evaluation with a simulated user. Separates passive feedback following from proactive clarification questions, making it relevant to interactive design rather than only high-fidelity screenshot matching.",
       "chinese": "测试将粗略草图转换为网页原型，并支持与模拟用户进行多轮评测。区分被动遵循反馈与主动提出澄清问题，因此适用于交互式设计，而不仅是高保真截图匹配。",
       "evidence_note": "The benchmark is the Ryan Li et al. paper, distinct from unrelated products and other papers using the same Sketch2Code name.",
-      "metadata_sha256": "27fc7622deca3540740227a13644e97586402802702164df0483d3585587b1c7"
+      "metadata_sha256": "27fc7622deca3540740227a13644e97586402802702164df0483d3585587b1c7",
+      "review_date": "2026-10-10"
     },
     {
       "id": "2411.03292",
@@ -666,7 +781,8 @@
       "english": "Benchmarks interactive webpage generation from visual prototypes using automatic and human assessment. Studies interaction-specific failure modes and enhancement strategies such as element highlighting and combined visual–textual descriptions; static appearance alone is not its evaluation target.",
       "chinese": "通过自动与人工评估，测试根据视觉原型生成交互式网页。研究交互特有的失效模式，以及元素高亮、视觉与文本描述结合等增强策略；其评测目标不限于静态外观。",
       "evidence_note": "Primary v3 abstract/history/metadata checked. The reviewed title and nine-author list differ from the earlier v1 record; no detailed protocol or experimental reproduction is implied.",
-      "metadata_sha256": "31b6749462d0a9326d59ec0f2122f147312b542c0e8e97bab00831d8a4c78b8a"
+      "metadata_sha256": "31b6749462d0a9326d59ec0f2122f147312b542c0e8e97bab00831d8a4c78b8a",
+      "review_date": "2026-10-10"
     },
     {
       "id": "2506.06251",
@@ -694,7 +810,43 @@
       "metadata_sha256": "554eed5ce766a8663c35b8120a950b6c0950acbf0c40a4c6e152567795ec8b3d",
       "evidence_url": "https://arxiv.org/html/2506.06251v3#S4",
       "sections": "Sections 4.1–4.2",
-      "full_text_sha256": "e11aa947a8c0620370514c652afdfe8d7185a9fa889779e913dd2109d95e3153"
+      "full_text_sha256": "e11aa947a8c0620370514c652afdfe8d7185a9fa889779e913dd2109d95e3153",
+      "review_date": "2026-10-10"
+    },
+    {
+      "id": "2508.16763",
+      "label": "WebMMU",
+      "category": "Evaluation Benchmarks",
+      "kind": "Benchmark paper",
+      "title": "WebMMU: A Benchmark for Multimodal Multilingual Website Understanding and Code Generation",
+      "authors": [
+        "Rabiul Awal",
+        "Mahsa Massoud",
+        "Aarash Feizi",
+        "Zichao Li",
+        "Suyuchen Wang",
+        "Christopher Pal",
+        "Aishwarya Agrawal",
+        "David Vazquez",
+        "Siva Reddy",
+        "Juan A. Rodriguez",
+        "Perouz Taslakian",
+        "Spandana Gella",
+        "Sai Rajeswar"
+      ],
+      "first_submitted": "2025-08-22",
+      "version": "v1",
+      "revised": "2025-08-22",
+      "review_date": "2026-10-14",
+      "source": "https://arxiv.org/abs/2508.16763",
+      "status": "M",
+      "english": "Benchmarks multilingual website understanding alongside mockup/sketch-to-HTML/CSS generation and instruction-driven code edits using screenshots and existing source. The code-generation tasks belong in this catalog; the accompanying visual question-answering tasks measure a separate capability and should not be treated as evidence of executable reconstruction.",
+      "chinese": "在评测多语言网站理解的同时，评测设计稿或草图到 HTML/CSS 的生成，以及基于截图和现有源码的指令式代码编辑。代码生成任务属于本目录范围；配套的视觉问答任务衡量另一种能力，不应被当作可执行重建的证据。",
+      "evidence_note": "Read the task definitions for VQA, mockup/sketch generation and code editing. Keep language, reference-image and existing-code access fixed when comparing the coding tasks.",
+      "metadata_sha256": "7ee80c388d06833818d46d82547cc6342efd4f5705430407d5fcf14357f25f97",
+      "sections": "Section 3.2",
+      "evidence_url": "https://arxiv.org/html/2508.16763v1#S3.SS2",
+      "full_text_sha256": "84adcdb9a0377b30d9064a25428b9675fbc45fbaf209d955e9a0f2ec0695076b"
     },
     {
       "id": "2602.18548",
@@ -719,7 +871,45 @@
       "metadata_sha256": "cc4b0fe031fd7b82e517d56b84d54ca38be59252a00861b1a236ae8613478518",
       "evidence_url": "https://arxiv.org/html/2602.18548v3#S3",
       "sections": "Section 3",
-      "full_text_sha256": "f06e5fe5277488ae9e01e5cbbcf01c09c0d3810ca6aec8ba1556751e46f8ceb8"
+      "full_text_sha256": "f06e5fe5277488ae9e01e5cbbcf01c09c0d3810ca6aec8ba1556751e46f8ceb8",
+      "review_date": "2026-10-10"
+    },
+    {
+      "id": "2605.26144",
+      "label": "VISTA",
+      "category": "Evaluation Benchmarks",
+      "kind": "Benchmark paper",
+      "title": "VISTA: An End-to-End Benchmark for Visual Spec-to-App Coding Agents",
+      "authors": [
+        "JunJia Guo",
+        "Yuhang Yao",
+        "Chang Li",
+        "Zimeng Pan",
+        "Jiawei (Joe) Zhou",
+        "Jingdi Chen"
+      ],
+      "first_submitted": "2026-05-22",
+      "version": "v4",
+      "revised": "2026-09-29",
+      "review_date": "2026-10-14",
+      "source": "https://arxiv.org/abs/2605.26144",
+      "status": "M",
+      "english": "Evaluates agents that build multi-page applications from visual design handoffs and specifications. The reviewed revision covers Web and Android, combining component localization with behavioral execution and a joint score. Screenshots, structured design metadata and text are distinct input conditions; visual similarity alone does not establish functioning applications.",
+      "chinese": "评测智能体根据视觉设计交付物与规格构建多页面应用的能力。所核验版本覆盖 Web 与 Android，将组件定位、行为执行及联合评分结合。截图、结构化设计元数据和文本是不同的输入条件；仅有视觉相似度不能证明应用能够正常运行。",
+      "evidence_note": "Read task inputs, Web/Android environment and component-level visual/behavioral evaluation. v4 title block says Spec-to-App; abstract citation metadata still says Spec-to-Web-App and incorrectly splits Jiawei Zhou into two author fields. Title and six authors follow the v4 title block.",
+      "metadata_sha256": "a7153a26a8b50b64b824c9e9c994262c87e21a865f2157f375352075e8c05322",
+      "sections": "Sections 3–4 and the title block",
+      "evidence_url": "https://arxiv.org/html/2605.26144v4#S3",
+      "full_text_sha256": "28924b3e020157904eaac897d9e13f570fc165027e57456e411ccf4709585909",
+      "implementation": {
+        "repo": "kaboider/VISTA_Bench",
+        "commit": "dce2756fdeca450310af91034e78bd57203a001a",
+        "readme_url": "https://github.com/kaboider/VISTA_Bench/blob/dce2756fdeca450310af91034e78bd57203a001a/README.md",
+        "readme_sha256": "baba2388d87acc76dca9eb7b17afb342ab3964b3f92dec914e70eb8f49b50cd2",
+        "review_date": "2026-10-14",
+        "role": "Coding-agent execution and application evaluation",
+        "evidence_note": "Documents `tasks/run_eval.sh`, per-CLI wrappers and Docker-based localization/behavior scoring. The reviewed README describes the Web runner; it does not establish release of the Android evaluation added in paper v4."
+      }
     },
     {
       "id": "2608.03474",
@@ -746,7 +936,69 @@
       "metadata_sha256": "aabd30b1208b0b6d40c3f919b0c038bb1ef17088a672df096a4c68c0ce6a61c1",
       "evidence_url": "https://arxiv.org/html/2608.03474v1#S3",
       "sections": "Sections 3.1–3.3 introduction",
-      "full_text_sha256": "96d623ee3580e1a55d39ac462ea8b8eabc8ea2a2a6e8fa27741d7750680f15ba"
+      "full_text_sha256": "96d623ee3580e1a55d39ac462ea8b8eabc8ea2a2a6e8fa27741d7750680f15ba",
+      "review_date": "2026-10-10"
+    },
+    {
+      "id": "2608.03691",
+      "label": "Pattern over Pixels / Pattern2Code",
+      "category": "Evaluation Benchmarks",
+      "kind": "Benchmark and analysis paper",
+      "title": "Pattern over Pixels: Measuring Pattern Completion Bias in Multimodal Code Generation",
+      "authors": [
+        "Khai-Nguyen Nguyen",
+        "Oscar Chaparro",
+        "Antonio Mastropaolo"
+      ],
+      "first_submitted": "2026-08-04",
+      "version": "v1",
+      "revised": "2026-08-04",
+      "review_date": "2026-10-14",
+      "source": "https://arxiv.org/abs/2608.03691",
+      "status": "M",
+      "english": "Perturbs individual elements in repeated webpage patterns and asks models to recover masked style values from screenshots, supplied HTML and a location description. Tests whether visual evidence overrides pattern-completion bias. This is constrained code completion with substantial source context, not unrestricted screenshot-to-page generation.",
+      "chinese": "对网页重复模式中的单个元素施加扰动，要求模型根据截图、给定 HTML 和位置描述恢复被遮蔽的样式值。测试视觉证据能否克服模式补全偏差。这是提供大量源码上下文的受限代码补全，而非不受限制的截图到页面生成。",
+      "evidence_note": "Read pattern mining, single-element width/font-size perturbations, masked values and prompting setup. Original and perturbed pages form controlled cases; no result-table claims are retained.",
+      "metadata_sha256": "a8a092834ce7692532dbcbecca48928f0607d1e379630b0202a6681b2e8e0c34",
+      "sections": "Sections 3.1–3.3",
+      "evidence_url": "https://arxiv.org/html/2608.03691v1#S3",
+      "full_text_sha256": "0fcbb244b9a33f593def4288195222352f0baab96982fafcb18977460b9055ca"
+    },
+    {
+      "id": "2610.02617",
+      "label": "WebUIProof",
+      "category": "Evaluation Benchmarks",
+      "kind": "Benchmark and training method paper",
+      "title": "WebUIProof: Benchmarking WebUI Code Generators with UI-Agent Execution Harness",
+      "authors": [
+        "Yun-Yun Tsai",
+        "Yuning Mao",
+        "Shiqi Wang",
+        "Junfeng Yang",
+        "Sinong Wang"
+      ],
+      "first_submitted": "2026-10-02",
+      "version": "v1",
+      "revised": "2026-10-02",
+      "review_date": "2026-10-14",
+      "source": "https://arxiv.org/abs/2610.02617",
+      "status": "M",
+      "english": "Uses a UI-agent execution harness to test generated websites through interaction and assertions, observing both DOM and visual state. Its VisRL method combines build/runtime, visual-quality and interaction-test feedback to train a code generator. Generation starts from text specifications; inclusion rests on visual assessment and training feedback, not screenshot-conditioned input.",
+      "chinese": "使用 UI 智能体执行 harness，通过交互与断言测试生成的网站，同时观察 DOM 和视觉状态。其 VisRL 方法结合构建与运行、视觉质量及交互测试反馈来训练代码生成器。生成从文本规格开始；收录依据是视觉评估和训练反馈，而非以截图为条件的输入。",
+      "evidence_note": "Read interaction-aware construction, execution tests and VisRL rewards. The generator input is text; distinguish visual observation by the evaluator and visual-quality reward from visual input to the generator.",
+      "metadata_sha256": "b6ad6e19b6623659eac942aa484f2390712d1adb3c9fb3678b7219cccb8d0aba",
+      "sections": "Sections 3.2–3.4",
+      "evidence_url": "https://arxiv.org/html/2610.02617v1#S3.SS2",
+      "full_text_sha256": "8b0417bc4fb2fcd32bd3c34df5b324b5d15d7f0b11c31eac4ad1f3e716eb83df",
+      "implementation": {
+        "repo": "yunyuntsai/webuiproof-benchmark",
+        "commit": "fa59898a5305672cdb28b29965cb87bca4204438",
+        "readme_url": "https://github.com/yunyuntsai/webuiproof-benchmark/blob/fa59898a5305672cdb28b29965cb87bca4204438/README.md",
+        "readme_sha256": "ff8d4a9d821839772032e5d4b764ca8fd5e2211ad74e69ad3ec27d93024cf095",
+        "review_date": "2026-10-14",
+        "role": "UI-agent interaction testing harness",
+        "evidence_note": "Documents generation, project building, hosting and VLM-driven UI tests under `src/ui_test_llama/`. The README describes the general-WebUI subset; it does not establish release of every paper task or the complete VisRL training pipeline."
+      }
     },
     {
       "id": "2610.10374",
@@ -775,12 +1027,51 @@
       "metadata_sha256": "30be6963fdbe481c02ea582d27352c6855159e8612de58828b3ee73360ac91a8",
       "evidence_url": "https://arxiv.org/html/2610.10374v1#S4",
       "sections": "Section 4",
-      "full_text_sha256": "80506bb84d8b2e8fea56ff9bc360180bb65a6eef454294d737a67c3b2bd01656"
+      "full_text_sha256": "80506bb84d8b2e8fea56ff9bc360180bb65a6eef454294d737a67c3b2bd01656",
+      "review_date": "2026-10-10"
+    },
+    {
+      "id": "2609.34309",
+      "label": "MaLiang-Harness",
+      "category": "Adjacent Graphics Coding",
+      "kind": "System paper",
+      "title": "MaLiang-Harness: A Programmable Path to Image and Video Generation",
+      "authors": [
+        "Haoyu Zhao",
+        "Zihao Zhang",
+        "Xudong Wang",
+        "Jiaxi Gu",
+        "Zuxuan Wu",
+        "Yu-Gang Jiang",
+        "Shuicheng Yan"
+      ],
+      "first_submitted": "2026-09-28",
+      "version": "v1",
+      "revised": "2026-09-28",
+      "review_date": "2026-10-14",
+      "source": "https://arxiv.org/abs/2609.34309",
+      "status": "M",
+      "english": "Organizes image and animation generation around persistent executable programs, iterative rendering and visual feedback. Associates edits and verification artifacts with program revisions, supports restoration, and rechecks the current revision before delivery. Its graphics harness informs code-driven visual workflows; it does not establish frontend UI reconstruction results.",
+      "chinese": "以持久化可执行程序、迭代渲染和视觉反馈组织图像与动画生成。将编辑及验证产物关联到程序版本，支持恢复，并在交付前重新检查当前版本。其图形生成 harness 可为代码驱动的视觉工作流提供参考，但不能证明前端 UI 重建效果。",
+      "evidence_note": "Read persistent task/program state, editing/rendering tools, visual inspection and revision-aware delivery checks. Backends include Canvas, SVG, Scene2D and Three.js. Agent visual acceptance is not an independent quality guarantee.",
+      "metadata_sha256": "a06835ca31ae774fae8b085c76a57919121b34e9e44ac77da830515963afce9d",
+      "sections": "Section 3 (3.1–3.3)",
+      "evidence_url": "https://arxiv.org/html/2609.34309v1#S3",
+      "full_text_sha256": "81cbd9c846d4ba86ae7ef61cf0e74098aea9528053ea6524a0d1623d1518ede1",
+      "implementation": {
+        "repo": "gulucaptain/MaLiang-Harness",
+        "commit": "c811b47f63ff1748d85b2dc2e9c4169385d4b46f",
+        "readme_url": "https://github.com/gulucaptain/MaLiang-Harness/blob/c811b47f63ff1748d85b2dc2e9c4169385d4b46f/README.md",
+        "readme_sha256": "906fe4fcab819a8e768765bbc628ce36c6b6deccf56c359bc6d232c50c0e191d",
+        "review_date": "2026-10-14",
+        "role": "Revision-aware graphics generation harness",
+        "evidence_note": "Documents CLI/UI generation, render/inspect/revise tools and `python -m benchmarks`. The public release excludes the complete paper datasets, historical results and full visual-scoring pipeline."
+      }
     },
     {
       "id": "2609.34587",
       "label": "IR4RL",
-      "category": "Adjacent Image-to-Graphics Research",
+      "category": "Adjacent Graphics Coding",
       "kind": "Method paper",
       "title": "Reinforcement Learning from Intermediate Renders for Image-to-Code Generation",
       "authors": [
@@ -800,7 +1091,130 @@
       "metadata_sha256": "b5e8864e43bf79764b055804ae28a4f3b0561688a235c0b59cd1fe2815de52d1",
       "evidence_url": "https://arxiv.org/html/2609.34587v1#S4",
       "sections": "Section 4",
-      "full_text_sha256": "17bd8782bd27f7490d5291aa4835340ad02370feccf5cbc60ba1e89ca7bf210b"
+      "full_text_sha256": "17bd8782bd27f7490d5291aa4835340ad02370feccf5cbc60ba1e89ca7bf210b",
+      "review_date": "2026-10-10"
+    }
+  ],
+  "systems": [
+    {
+      "id": "screenshot-to-code",
+      "label": "screenshot-to-code",
+      "group": "open-source",
+      "role": "Generation and visual feedback",
+      "description": "Converts screenshots, mockups and screen recordings into frontend code. Documents optional browser screenshot preview so the agent can render and visually inspect generated pages; model-provider keys are required.",
+      "source": "https://github.com/abi/screenshot-to-code",
+      "repository": "abi/screenshot-to-code",
+      "commit": "a8139779f7c5ae231b7f2a86fa7f83ddc5f7badc",
+      "license": "MIT",
+      "readme_url": "https://github.com/abi/screenshot-to-code/blob/a8139779f7c5ae231b7f2a86fa7f83ddc5f7badc/README.md",
+      "readme_sha256": "a728506f78f76cbe602ae83805be2516b4c0b03763de09a64184fc96bb619c06",
+      "license_url": "https://github.com/abi/screenshot-to-code/blob/a8139779f7c5ae231b7f2a86fa7f83ddc5f7badc/LICENSE",
+      "license_sha256": "a264aef6acfaf75d9dcf0600a984f0f0ad0a36c2961013f530e2367d66201fd7",
+      "review_date": "2026-10-14",
+      "status": "D",
+      "evidence_note": "Read the overview, supported stacks, local setup and optional screenshot-preview tool. This pins the previously mutable catalog entry."
+    },
+    {
+      "id": "onlook",
+      "label": "Onlook",
+      "group": "open-source",
+      "role": "Visual editor",
+      "description": "Maps rendered DOM elements to source locations and writes visual edits back to code, with an AI editing interface. The public editor targets Next.js and Tailwind; the README distinguishes it from the newer hosted product.",
+      "source": "https://github.com/onlook-dev/onlook",
+      "repository": "onlook-dev/onlook",
+      "commit": "423e2e924366419e418ee049093872d535eea41a",
+      "license": "Apache-2.0",
+      "readme_url": "https://github.com/onlook-dev/onlook/blob/423e2e924366419e418ee049093872d535eea41a/README.md",
+      "readme_sha256": "e52e5bb387561790b83fb8a785eaffbad5b058d895118489d4f2c6878bb5acaf",
+      "license_url": "https://github.com/onlook-dev/onlook/blob/423e2e924366419e418ee049093872d535eea41a/LICENSE.md",
+      "license_sha256": "ebac09c6f0854bc48cb843bcab00d57310028defb124e9bc7f2f39203b705ea8",
+      "review_date": "2026-10-14",
+      "status": "D",
+      "evidence_note": "Read the public-editor scope, usage and How it works architecture, including code instrumentation and iframe-to-source edits. Do not transfer hosted-product claims to this snapshot."
+    },
+    {
+      "id": "stagewise",
+      "label": "stagewise",
+      "group": "open-source",
+      "role": "Browser-connected coding environment",
+      "description": "Combines browsing with a coding agent that can inspect the tab console and debugger. Connecting a codebase enables permanent source edits; temporary browser changes alone do not constitute code generation.",
+      "source": "https://github.com/stagewise-io/stagewise",
+      "repository": "stagewise-io/stagewise",
+      "commit": "43c6b252bbded96f37dcec6d858bd346d17f545b",
+      "license": "AGPL-3.0",
+      "readme_url": "https://github.com/stagewise-io/stagewise/blob/43c6b252bbded96f37dcec6d858bd346d17f545b/README.md",
+      "readme_sha256": "f2f8c198c78d88844b092b51f90816c30d14fb6a788ab3f0086ef8a736ee9b76",
+      "license_url": "https://github.com/stagewise-io/stagewise/blob/43c6b252bbded96f37dcec6d858bd346d17f545b/LICENSE",
+      "license_sha256": "39c413b218e624589fc1f3f8d8ea671c1512cb7753a40a18f5e0ba7beaabac50",
+      "review_date": "2026-10-14",
+      "status": "D",
+      "evidence_note": "Read About the project and the License section. This snapshot describes an agentic IDE; older toolbar-only descriptions do not describe the reviewed source."
+    },
+    {
+      "id": "react-grab",
+      "label": "React Grab",
+      "group": "open-source",
+      "role": "Visual selection to source context",
+      "description": "Turns a selected visible UI element into element and component-stack context with source locations for a coding agent. Supplies grounding for edits; the selection tool itself does not generate or validate the resulting code.",
+      "source": "https://github.com/aidenybai/react-grab",
+      "repository": "aidenybai/react-grab",
+      "commit": "ea4bbec9e80f4802e8ae19ad18431edb9ddbb670",
+      "license": "MIT",
+      "readme_url": "https://github.com/aidenybai/react-grab/blob/ea4bbec9e80f4802e8ae19ad18431edb9ddbb670/README.md",
+      "readme_sha256": "524cbe2c585b69976876e453b189961bfb4c68dad6406acb50fa157ad3f00c77",
+      "license_url": "https://github.com/aidenybai/react-grab/blob/ea4bbec9e80f4802e8ae19ad18431edb9ddbb670/LICENSE",
+      "license_sha256": "3cb91aec78b7a54136b60a81055a3e1e5bac3c2d47d06dc866948129e4cd4f45",
+      "review_date": "2026-10-14",
+      "status": "D",
+      "evidence_note": "Read How It Works, installation scope and the primitives API overview. No speedup claim from the README is carried into this catalog."
+    },
+    {
+      "id": "playwright-mcp",
+      "label": "Playwright MCP",
+      "group": "open-source",
+      "role": "Browser infrastructure",
+      "description": "Exposes browser interaction, accessibility snapshots and screenshots to agents, with opt-in coordinate actions. Its default interaction uses accessibility data; screenshot capture can support a render-and-refine loop, while orchestration and visual scoring remain the caller's responsibility.",
+      "source": "https://github.com/microsoft/playwright-mcp",
+      "repository": "microsoft/playwright-mcp",
+      "commit": "b8b4183e099f136cbec0388a6088d4aa2f6b9685",
+      "license": "Apache-2.0",
+      "readme_url": "https://github.com/microsoft/playwright-mcp/blob/b8b4183e099f136cbec0388a6088d4aa2f6b9685/README.md",
+      "readme_sha256": "b33aa71a13d655e96e6b736d0c9de1e5ddea52f205916ca20b876387ff830e87",
+      "license_url": "https://github.com/microsoft/playwright-mcp/blob/b8b4183e099f136cbec0388a6088d4aa2f6b9685/LICENSE",
+      "license_sha256": "9a7110fc2d2f964038e5dc49128f908f29f47a574c961cba16085914e879cbda",
+      "review_date": "2026-10-14",
+      "status": "D",
+      "evidence_note": "Read the overview, capability configuration, browser_snapshot, browser_take_screenshot and opt-in coordinate tools. Listed as supporting infrastructure, not as a standalone visual-code generator or evaluation harness."
+    },
+    {
+      "id": "chrome-devtools-mcp",
+      "label": "Chrome DevTools MCP",
+      "group": "open-source",
+      "role": "Browser debugging infrastructure",
+      "description": "Connects coding agents to live Chrome for automation, screenshots, console/network inspection and performance traces. Supplies rendered evidence and runtime diagnostics for code repair; it does not prescribe a coding loop or visual-quality evaluator.",
+      "source": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "repository": "ChromeDevTools/chrome-devtools-mcp",
+      "commit": "f827e067b0cea88bd99ae6de7f70f0a24aef00c5",
+      "license": "Apache-2.0",
+      "readme_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/f827e067b0cea88bd99ae6de7f70f0a24aef00c5/README.md",
+      "readme_sha256": "059a0349daaef6bda98eae6d9384ed349ac94b8033b18be817c317a01b472024",
+      "license_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/f827e067b0cea88bd99ae6de7f70f0a24aef00c5/LICENSE",
+      "license_sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "review_date": "2026-10-14",
+      "status": "D",
+      "evidence_note": "Read the overview and key features. Listed as supporting infrastructure; screenshots and diagnostics enable feedback but do not implement an end-to-end visual-coding harness."
+    },
+    {
+      "id": "stitch",
+      "label": "Stitch",
+      "group": "hosted",
+      "role": "Hosted system",
+      "source": "https://developers.googleblog.com/stitch-a-new-way-to-design-uis/",
+      "source_date": "2025-05-20",
+      "review_date": "2026-10-10",
+      "status": "D",
+      "description": "The launch announcement describes image/wireframe input, iterative UI design and frontend code export. This entry documents the launch workflow, not the current complete feature set or pricing.",
+      "evidence_note": "Read the announcement sections covering image/wireframe input, iteration and frontend export. Listed authors: Vincent Nallatamby; Arnaud Benard; Sam El-Husseini. Product launch claims are attributed to Google; the current application was not tested."
     }
   ]
 }

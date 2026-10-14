@@ -10,6 +10,10 @@ Choose a benchmark by the task it measures. Do not aggregate its score with a di
 | Can it produce a runnable project over several turns? | [1D-Bench](SOURCE_AUDIT.md#paper-2602-18548) | Same scaffold, dependencies, tools, failure handling, round limit and design-metadata access. |
 | Does it recover interactive behavior? | [Interaction2Code](SOURCE_AUDIT.md#paper-2411-03292), [WebVIA](SOURCE_AUDIT.md#paper-2511-06251) | Same reachable states, transition tests, DOM access and exploration budget; a matching initial screenshot is insufficient. |
 | Does code satisfy implementation constraints? | [TaoD2C-Bench](SOURCE_AUDIT.md#paper-2610-10374) | Same library documentation, metadata and supplied requirements; separate requirement inference from realization. |
+| Can it generate or edit websites across languages? | [WebMMU](SOURCE_AUDIT.md#paper-2508-16763) | Separate VQA from code generation; match language, mockup/sketch inputs and access to existing code. |
+| Does it follow visual evidence when repeated patterns suggest another answer? | [Pattern2Code](SOURCE_AUDIT.md#paper-2608-03691) | Match supplied HTML, masked style fields, location descriptions and perturbations; this is constrained completion. |
+| Can it implement a visual application specification? | [VISTA](SOURCE_AUDIT.md#paper-2605-26144) | Pin the revision, platform and text/image/design-metadata condition; separate localization, behavior and joint scores. |
+| Can an execution harness assess interaction and appearance? | [WebUIProof](SOURCE_AUDIT.md#paper-2610-02617), [WebGen-V Bench](SOURCE_AUDIT.md#paper-2510-15306) | Distinguish executable interaction assertions from section-level visual judges; neither score substitutes for the other. |
 
 These are editorial selection questions, not new benchmark results. The linked audit entries identify the source evidence for each task family.
 
