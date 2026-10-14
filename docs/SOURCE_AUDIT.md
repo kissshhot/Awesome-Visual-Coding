@@ -1,6 +1,8 @@
 # Source Audit
 
-Review date and inclusion cutoff: **2026-10-10**. **28 research entries; 18 M and 10 A; 2 D system resources.**
+Latest review and inclusion cutoff: **2026-10-14**. **36 research entries; 26 M and 10 A; 7 D system resources (6 open-source, 1 hosted).**
+
+This is a cumulative review. Existing research records retain their 2026-10-10 review dates; eight research additions and six pinned open-source documentation reviews are dated 2026-10-14. Stitch retains its 2026-10-10 announcement review.
 
 ## Provenance and Review Method
 
@@ -22,7 +24,11 @@ This was a selective review. It does not certify exhaustive recall, experimental
 - ReLook explicitly separates its training critic from its critic-free inference. Vision-Guided Iterative Refinement starts from text but qualifies through rendered output feedback. WebVIA uses DOM as well as screenshots during exploration.
 - 1D-Bench v3 treats the exported intermediate representation as potentially faulty. TaoD2C-Bench was submitted on 2026-10-07, within the cutoff. Their metadata inputs should not be hidden in screenshot-only comparisons.
 - Sketch-n-Sketch is the 2016 direct-manipulation paper; IR4RL is evaluated on SVG/TikZ. These limited extensions do not imply coverage of the full graphics-programming field.
-- Official system documentation has D status and is not counted as a paper or formal technical report. The screenshot-to-code default-branch snapshot remains unpinned after the public commit lookup failed.
+- VISTA v4 expands the benchmark to Web and Android. Its title block says Spec-to-App, while the abstract citation metadata retains Spec-to-Web-App and splits one author into two fields. The v4 title and six-person author list are used below.
+- UICoder and WebUIProof start from text; their inclusion rests on visual training feedback, with execution-time visual assessment also present in WebUIProof. Pattern2Code is constrained completion with supplied HTML, not full-page generation.
+- MaLiang-Harness is a graphics/animation system with revision-aware rendering and verification. It is a bounded adjacent connection, not evidence of frontend reconstruction performance.
+- Official system documentation has D status and is not counted as a paper or formal technical report. All six open-source entries now have immutable README/license snapshots, including the previously unpinned screenshot-to-code entry.
+- The open-source list is based on repository documentation rather than associated research claims. Supporting browser servers and source-location tools are explicitly distinguished from complete coding harnesses.
 
 ## Per-Paper Evidence
 
@@ -36,6 +42,7 @@ All dates below are UTC calendar dates from the primary submission history. Cano
 | <a id="paper-2403-03163"></a>[2403.03163](https://arxiv.org/abs/2403.03163) | Design2Code: Benchmarking Multimodal Code Generation for Automated Front-End Engineering<br>Chenglei Si; Yanzhe Zhang; Ryan Li; Zhengyuan Yang; Ruibo Liu; Diyi Yang | 2024-03-05 | v3 · 2025-02-09 | M — abstract/history/metadata plus [Sections 2.1–2.3 through element matching](https://arxiv.org/html/2403.03163v3#S2). Read curation and metric definitions. v3 title and six-author list used; no cross-model rankings retained. |
 | <a id="paper-2403-09029"></a>[2403.09029](https://arxiv.org/abs/2403.09029) | Unlocking the conversion of Web Screenshots into HTML Code with the WebSight Dataset<br>Hugo Laurençon; Léo Tronchon; Victor Sanh | 2024-03-14 | v1 · 2024-03-14 | M — abstract/history/metadata plus [Section 3](https://arxiv.org/html/2403.09029v1#S3). Inspected the construction pipeline. Avoid conflating the paper corpus with earlier releases of the dataset card. |
 | <a id="paper-2404-06369"></a>[2404.06369](https://arxiv.org/abs/2404.06369) | WebCode2M: A Real-World Dataset for Code Generation from Webpage Designs<br>Yi Gui; Zhen Li; Yao Wan; Yemin Shi; Hongyu Zhang; Yi Su; Bohua Chen; Dongping Chen; Siyuan Wu; Xing Zhou; Wenbin Jiang; Hai Jin; Xiangliang Zhang | 2024-04-09 | v2 · 2025-02-22 | M — abstract/history/metadata plus [Section 2.1](https://arxiv.org/html/2404.06369v2#S2). Read purification and rendering details, including removal of script tags. Baseline and TreeBLEU identity were also checked in the abstract. |
+| <a id="paper-2406-07739"></a>[2406.07739](https://arxiv.org/abs/2406.07739) | UICoder: Finetuning Large Language Models to Generate User Interface Code through Automated Feedback<br>Jason Wu; Eldon Schoop; Alan Leung; Titus Barik; Jeffrey P. Bigham; Jeffrey Nichols | 2024-06-11 | v1 · 2024-06-11 | M — abstract/history/metadata plus [Sections 3.3–3.4](https://arxiv.org/html/2406.07739v1#S3.SS3). Read filtering, visual scoring, deduplication and training subsections, including 3.3.1 and 3.4.1. SwiftUI is a native-UI extension; visual feedback here is used in training, not a required inference input. |
 | <a id="paper-2406-16386"></a>[2406.16386](https://arxiv.org/abs/2406.16386) | Divide-and-Conquer: Generating UI Code from Screenshots<br>Yuxuan Wan; Chaozheng Wang; Yi Dong; Wenxuan Wang; Shuqing Li; Yintong Huo; Michael R. Lyu | 2024-06-24 | v3 · 2025-04-25 | M — abstract/history/metadata plus [Section 5 overview and 5.1](https://arxiv.org/html/2406.16386v3#S5). The v3 full-text heading is Divide-and-Conquer: Generating UI Code from Screenshots; the abstract-page citation_title metadata retained the earlier title. Used the reviewed full-text title. |
 | <a id="paper-2406-20098"></a>[2406.20098](https://arxiv.org/abs/2406.20098) | Web2Code: A Large-scale Webpage-to-Code Dataset and Evaluation Framework for Multimodal LLMs<br>Sukmin Yun; Haokun Lin; Rusiru Thushara; Mohammad Qazim Bhat; Yongxin Wang; Zutao Jiang; Mingkai Deng; Jinhong Wang; Tianhua Tao; Junbo Li; Haonan Li; Preslav Nakov; Timothy Baldwin; Zhengzhong Liu; Eric P. Xing; Xiaodan Liang; Zhiqiang Shen | 2024-06-28 | v2 · 2024-11-17 | A — abstract, metadata and submission history. Metadata and abstract only; construction details and experimental results were not method-reviewed. |
 | <a id="paper-2410-16232"></a>[2410.16232](https://arxiv.org/abs/2410.16232) | Sketch2Code: Evaluating Vision-Language Models for Interactive Web Design Prototyping<br>Ryan Li; Yanzhe Zhang; Diyi Yang | 2024-10-21 | v1 · 2024-10-21 | A — abstract, metadata and submission history. The benchmark is the Ryan Li et al. paper, distinct from unrelated products and other papers using the same Sketch2Code name. |
@@ -43,37 +50,106 @@ All dates below are UTC calendar dates from the primary submission history. Cano
 | <a id="paper-2502-03719"></a>[2502.03719](https://arxiv.org/abs/2502.03719) | Code Shaping: Iterative Code Editing with Free-form AI-Interpreted Sketching<br>Ryan Yen; Jian Zhao; Daniel Vogel | 2025-02-06 | v2 · 2025-02-08 | M — abstract/history/metadata plus [Section 3](https://arxiv.org/html/2502.03719v2#S3). Read the interaction concept and the roles of the three study stages; participant findings were not independently reanalyzed. |
 | <a id="paper-2503-01619"></a>[2503.01619](https://arxiv.org/abs/2503.01619) | Advancing vision-language models in front-end development via data synthesis<br>Tong Ge; Yashu Liu; Jieping Ye; Tianyi Li; Chao Wang | 2025-03-03 | v1 · 2025-03-03 | A — abstract, metadata and submission history. Abstract-level account; Flame-React-Eval is an associated evaluation asset, not a second counted paper. |
 | <a id="paper-2506-06251"></a>[2506.06251](https://arxiv.org/abs/2506.06251) | DesignBench: A Comprehensive Benchmark for MLLM-based Front-end Code Generation<br>Jingyu Xiao; Ming Wang; Man Ho Lam; Yuxuan Wan; Junliang Liu; Yintong Huo; Michael R. Lyu | 2025-06-06 | v3 · 2026-03-15 | M — abstract/history/metadata plus [Sections 4.1–4.2](https://arxiv.org/html/2506.06251v3#S4). Read task definitions and collection provenance; not all tasks require a target screenshot. Counts from task instances and unique pages should not be conflated. |
+| <a id="paper-2506-13663"></a>[2506.13663](https://arxiv.org/abs/2506.13663) | DesignCoder: Hierarchy-Aware and Self-Correcting UI Code Generation with Large Language Models<br>Yunnong Chen; Shixian Ding; YingYing Zhang; Wenkai Chen; Jinzhou Du; Lingyun Sun; Liuqing Chen | 2025-06-16 | v1 · 2025-06-16 | M — abstract/history/metadata plus [Section 2 (2.1–2.3)](https://arxiv.org/html/2506.13663v1#S2). Read UI Grouping Chain, hierarchical generation and visual self-correction. Inputs include IDs, types, bounding boxes and styles from design metadata; event-handler bodies are not implemented by this pipeline. |
 | <a id="paper-2507-22827"></a>[2507.22827](https://arxiv.org/abs/2507.22827) | ScreenCoder: Advancing Visual-to-Code Generation for Front-End Automation via Modular Multimodal Agents<br>Yilei Jiang; Yaozhi Zheng; Yuxuan Wan; Jiaming Han; Qunzhong Wang; Michael R. Lyu; Xiangyu Yue | 2025-07-30 | v2 · 2025-10-20 | A — abstract, metadata and submission history. v2 abstract checked; code availability and reported performance were not independently reproduced. |
 | <a id="paper-2508-03560"></a>[2508.03560](https://arxiv.org/abs/2508.03560) | LaTCoder: Converting Webpage Design to Code with Layout-as-Thought<br>Yi Gui; Zhen Li; Zhongyi Zhang; Guohao Wang; Tianpeng Lv; Gaoyang Jiang; Yi Liu; Dongping Chen; Yao Wan; Hongyu Zhang; Wenbin Jiang; Xuanhua Shi; Hai Jin | 2025-08-05 | v1 · 2025-08-05 | A — abstract, metadata and submission history. Abstract-level mechanism; CC-HARD is kept with its originating paper to avoid double counting. |
+| <a id="paper-2508-16763"></a>[2508.16763](https://arxiv.org/abs/2508.16763) | WebMMU: A Benchmark for Multimodal Multilingual Website Understanding and Code Generation<br>Rabiul Awal; Mahsa Massoud; Aarash Feizi; Zichao Li; Suyuchen Wang; Christopher Pal; Aishwarya Agrawal; David Vazquez; Siva Reddy; Juan A. Rodriguez; Perouz Taslakian; Spandana Gella; Sai Rajeswar | 2025-08-22 | v1 · 2025-08-22 | M — abstract/history/metadata plus [Section 3.2](https://arxiv.org/html/2508.16763v1#S3.SS2). Read the task definitions for VQA, mockup/sketch generation and code editing. Keep language, reference-image and existing-code access fixed when comparing the coding tasks. |
 | <a id="paper-2510-11498"></a>[2510.11498](https://arxiv.org/abs/2510.11498) | ReLook: Vision-Grounded RL with a Multimodal LLM Critic for Agentic Web Coding<br>Yuhang Li; Chenchen Zhang; Ruilin Lv; Ao Liu; Ken Deng; Yuanxing Zhang; Jiaheng Liu; Wiggin Zhou; Bo Zhou | 2025-10-13 | v1 · 2025-10-13 | A — abstract, metadata and submission history. The training/inference distinction is explicit in the primary abstract; no stronger guarantee about deployment behavior is inferred. |
+| <a id="paper-2510-15306"></a>[2510.15306](https://arxiv.org/abs/2510.15306) | WebGen-V Bench: Structured Representation for Enhancing Visual Design in LLM-based Web Generation and Evaluation<br>Kuang-Da Wang; Zhao Wang; Yotaro Shimose; Wei-Yao Wang; Shingo Takamatsu | 2025-10-17 | v1 · 2025-10-17 | M — abstract/history/metadata plus [Section 3 (3.1–3.2 and Algorithms 1–2)](https://arxiv.org/html/2510.15306v1#S3). Read collection, section representation, grounded instruction generation, evaluation and refinement algorithms. Judge feedback does not certify functional behavior. The public implementation is indexed separately without adding another paper. |
 | <a id="paper-2510-23538"></a>[2510.23538](https://arxiv.org/abs/2510.23538) | JanusCoder: Towards a Foundational Visual-Programmatic Interface for Code Intelligence<br>Qiushi Sun; Jingyang Gong; Yang Liu; Qiaosheng Chen; Lei Li; Kai Chen; Qipeng Guo; Ben Kao; Fei Yuan | 2025-10-27 | v3 · 2026-05-20 | A — abstract, metadata and submission history. Scope restricted to visual-input and visual-output coding. No cross-benchmark superiority claim retained. |
 | <a id="paper-2511-06251"></a>[2511.06251](https://arxiv.org/abs/2511.06251) | WebVIA: A Web-based Vision-Language Agentic Framework for Interactive and Verifiable UI-to-Code Generation<br>Mingde Xu; Zhen Yang; Wenyi Hong; Lihang Pan; Xinyue Fan; Yan Wang; Xiaotao Gu; Bin Xu; Jie Tang | 2025-11-09 | v1 · 2025-11-09 | M — abstract/history/metadata plus [Section 3 overview, environment and 3.1](https://arxiv.org/html/2511.06251v1#S3). Read the multimodal state definition and the controlled environment. Does not claim screenshot-only exploration or arbitrary live-site cloning. |
 | <a id="paper-2511-08195"></a>[2511.08195](https://arxiv.org/abs/2511.08195) | UI2Code^N: UI-to-Code Generation as Interactive Visual Optimization<br>Zhen Yang; Wenyi Hong; Mingde Xu; Xinyue Fan; Weihan Wang; Jiale Cheng; Xiaotao Gu; Jie Tang | 2025-11-11 | v4 · 2026-06-10 | M — abstract/history/metadata plus [Sections 2.1–2.3 through the relative-preference objective](https://arxiv.org/html/2511.08195v4#S2). v4 changes the title and foregrounds RVPO. Editing is explicitly localized and well specified; not general autonomous design. |
 | <a id="paper-2602-05998"></a>[2602.05998](https://arxiv.org/abs/2602.05998) | VisRefiner: Learning from Visual Differences for Screenshot-to-Code Generation<br>Jie Deng; Kaichun Yao; Libo Zhang | 2026-02-05 | v1 · 2026-02-05 | M — abstract/history/metadata plus [Sections 4.1–4.3 through the relative-improvement score](https://arxiv.org/html/2602.05998v1#S4). Read both sources of refinement pairs and the start of the RL reward formulation. No training or ablation reproduction. |
 | <a id="paper-2602-18548"></a>[2602.18548](https://arxiv.org/abs/2602.18548) | 1D-Bench: A Benchmark for Iterative UI Code Generation with Visual Feedback in Real-World<br>Qiao Xu; Yipeng Yu; Chengxiao Feng; Xu Liu | 2026-02-20 | v3 · 2026-07-15 | M — abstract/history/metadata plus [Section 3](https://arxiv.org/html/2602.18548v3#S3). Read v3 task and score definitions. The reference rendering, not literal adherence to noisy IR, is the visual target. |
 | <a id="paper-2604-05839"></a>[2604.05839](https://arxiv.org/abs/2604.05839) | Vision-Guided Iterative Refinement for Frontend Code Generation<br>Hannah Sansford; Derek H. C. Law; Wei Liu; Abhishek Tripathi; Niresh Agarwal; Gerrit J. J. van den Burg | 2026-04-07 | v1 · 2026-04-07 | M — abstract/history/metadata plus [Sections 3.1–3.3 introduction and Algorithm 1](https://arxiv.org/html/2604.05839v1#S3). Explicitly included under visual-feedback coding although the initial request is text. A model judge is not a functional test oracle. |
+| <a id="paper-2605-26144"></a>[2605.26144](https://arxiv.org/abs/2605.26144) | VISTA: An End-to-End Benchmark for Visual Spec-to-App Coding Agents<br>JunJia Guo; Yuhang Yao; Chang Li; Zimeng Pan; Jiawei (Joe) Zhou; Jingdi Chen | 2026-05-22 | v4 · 2026-09-29 | M — abstract/history/metadata plus [Sections 3–4 and the title block](https://arxiv.org/html/2605.26144v4#S3). Read task inputs, Web/Android environment and component-level visual/behavioral evaluation. v4 title block says Spec-to-App; abstract citation metadata still says Spec-to-Web-App and incorrectly splits Jiawei Zhou into two author fields. Title and six authors follow the v4 title block. |
 | <a id="paper-2606-15932"></a>[2606.15932](https://arxiv.org/abs/2606.15932) | Beyond NL2Code: A Structured Survey of Multimodal Code Intelligence<br>Xuanle Zhao; Qiushi Sun; Jingyu Xiao; Xuexin Liu; Haoyue Yang; Qiaosheng Chen; Xianzhen Luo; Jing Huang; Yufeng Zhong; Lei Chen; Shuai Fu; Zhenlin Wei; Jinhe Bi; Lei Jiang; Haibo Qiu; Siqi Yang; Peng Shi; Jian Hu; Zhixiong Zeng | 2026-06-14 | v3 · 2026-08-30 | A — abstract, metadata and submission history. A broader survey, included for orientation; robotics and other frontier domains in the survey are outside this catalog. |
 | <a id="paper-2608-03474"></a>[2608.03474](https://arxiv.org/abs/2608.03474) | MT-Web2Code: Benchmarking Coding Agents on Multi-Turn Regional Reconstruction and Localized Modification<br>Qiming Li; Shujie Hu; Haohan Liu; Xiaocheng Feng; Songxiang Liu; Guanglu Wan | 2026-08-04 | v1 · 2026-08-04 | M — abstract/history/metadata plus [Sections 3.1–3.3 introduction](https://arxiv.org/html/2608.03474v1#S3). Task formulation and preprocessing inspected; dual-axis evaluation identity checked against the abstract. Release was promised in the abstract, not independently confirmed. |
+| <a id="paper-2608-03691"></a>[2608.03691](https://arxiv.org/abs/2608.03691) | Pattern over Pixels: Measuring Pattern Completion Bias in Multimodal Code Generation<br>Khai-Nguyen Nguyen; Oscar Chaparro; Antonio Mastropaolo | 2026-08-04 | v1 · 2026-08-04 | M — abstract/history/metadata plus [Sections 3.1–3.3](https://arxiv.org/html/2608.03691v1#S3). Read pattern mining, single-element width/font-size perturbations, masked values and prompting setup. Original and perturbed pages form controlled cases; no result-table claims are retained. |
 | <a id="paper-2608-12611"></a>[2608.12611](https://arxiv.org/abs/2608.12611) | From Visual Widgets to UI Code: Efficient Tool-Grounded Generation<br>Houston H. Zhang; Tao Zhang; Li Gu; Linfeng Ye; Yuanhao Yu; Xinxin Zuo; Yang Wang; Zhixiang Chi | 2026-08-12 | v1 · 2026-08-12 | A — abstract, metadata and submission history. Abstract checked. Widget-scale results should not be generalized to full applications. |
 | <a id="paper-2608-24138"></a>[2608.24138](https://arxiv.org/abs/2608.24138) | Rubrics as Visual-Repair Context for Self-Evolving UI-to-Code Generation<br>Tianyi Xiong; Zhengyuan Yang; Xiaofei Wang; Chung-Ching Lin; Ruichun Ma; Kevin Lin; Zhendong Wang; Linjie Li; Chenxi Liu; Ruibo Chen; Ramani Duraiswami; Heng Huang; Lijuan Wang | 2026-08-25 | v1 · 2026-08-25 | M — abstract/history/metadata plus [Sections 3.1–3.3 before the results table](https://arxiv.org/html/2608.24138v1#S3). Read Evolve, Select and History operations. The paper explicitly distinguishes conditioning signals from hard constraints. |
+| <a id="paper-2609-34309"></a>[2609.34309](https://arxiv.org/abs/2609.34309) | MaLiang-Harness: A Programmable Path to Image and Video Generation<br>Haoyu Zhao; Zihao Zhang; Xudong Wang; Jiaxi Gu; Zuxuan Wu; Yu-Gang Jiang; Shuicheng Yan | 2026-09-28 | v1 · 2026-09-28 | M — abstract/history/metadata plus [Section 3 (3.1–3.3)](https://arxiv.org/html/2609.34309v1#S3). Read persistent task/program state, editing/rendering tools, visual inspection and revision-aware delivery checks. Backends include Canvas, SVG, Scene2D and Three.js. Agent visual acceptance is not an independent quality guarantee. |
 | <a id="paper-2609-34587"></a>[2609.34587](https://arxiv.org/abs/2609.34587) | Reinforcement Learning from Intermediate Renders for Image-to-Code Generation<br>Omri Kaduri; Kate Feingold; Phillip Isola; Tali Dekel | 2026-09-28 | v1 · 2026-09-28 | M — abstract/history/metadata plus [Section 4](https://arxiv.org/html/2609.34587v1#S4). Read prefix closure, reward deltas, token propagation and combined outcome/process objective. Included as a clearly bounded adjacent task. |
+| <a id="paper-2610-02617"></a>[2610.02617](https://arxiv.org/abs/2610.02617) | WebUIProof: Benchmarking WebUI Code Generators with UI-Agent Execution Harness<br>Yun-Yun Tsai; Yuning Mao; Shiqi Wang; Junfeng Yang; Sinong Wang | 2026-10-02 | v1 · 2026-10-02 | M — abstract/history/metadata plus [Sections 3.2–3.4](https://arxiv.org/html/2610.02617v1#S3.SS2). Read interaction-aware construction, execution tests and VisRL rewards. The generator input is text; distinguish visual observation by the evaluator and visual-quality reward from visual input to the generator. |
 | <a id="paper-2610-10374"></a>[2610.10374](https://arxiv.org/abs/2610.10374) | TaoD2C-Bench: Benchmarking MLLMs for Industrial UI Code Generation Beyond Visual Fidelity<br>Chengwei Shi; Yunnong Chen; Tingting Zhou; Qiang Lu; Shiyu Yue; Xinyuan Hu; Jianfang Ru; Liuqing Chen | 2026-10-07 | v1 · 2026-10-07 | M — abstract/history/metadata plus [Section 4](https://arxiv.org/html/2610.10374v1#S4). Submission record confirms 2026-10-07, within the cutoff despite the large identifier. Read tasks and metrics; no dataset or evaluator execution. |
+
+## Research Implementation Evidence
+
+These documentation checks supplement the M paper reviews. Repository entry points were inspected in the pinned READMEs; no installation or evaluation was run.
+
+- [WebGen-V Bench implementation README](https://github.com/sony/web_gen_v_bench/blob/cd13ad84315375bc97238bd0b1db7b5420417079/README.md), reviewed 2026-10-14. Documents `run_demo.py` and `pipeline/eval_run.py` for build, generation, evaluation and refinement. This snapshot defaults to Gemini; only a sample URL list ships, with the full list available on request. Revision `cd13ad84315375bc97238bd0b1db7b5420417079`; downloaded README hash recorded in the paper's registry entry.
+- [VISTA implementation README](https://github.com/kaboider/VISTA_Bench/blob/dce2756fdeca450310af91034e78bd57203a001a/README.md), reviewed 2026-10-14. Documents `tasks/run_eval.sh`, per-CLI wrappers and Docker-based localization/behavior scoring. The reviewed README describes the Web runner; it does not establish release of the Android evaluation added in paper v4. Revision `dce2756fdeca450310af91034e78bd57203a001a`; downloaded README hash recorded in the paper's registry entry.
+- [MaLiang-Harness implementation README](https://github.com/gulucaptain/MaLiang-Harness/blob/c811b47f63ff1748d85b2dc2e9c4169385d4b46f/README.md), reviewed 2026-10-14. Documents CLI/UI generation, render/inspect/revise tools and `python -m benchmarks`. The public release excludes the complete paper datasets, historical results and full visual-scoring pipeline. Revision `c811b47f63ff1748d85b2dc2e9c4169385d4b46f`; downloaded README hash recorded in the paper's registry entry.
+- [WebUIProof implementation README](https://github.com/yunyuntsai/webuiproof-benchmark/blob/fa59898a5305672cdb28b29965cb87bca4204438/README.md), reviewed 2026-10-14. Documents generation, project building, hosting and VLM-driven UI tests under `src/ui_test_llama/`. The README describes the general-WebUI subset; it does not establish release of every paper task or the complete VisRL training pipeline. Revision `fa59898a5305672cdb28b29965cb87bca4204438`; downloaded README hash recorded in the paper's registry entry.
 
 ## Official System Evidence
 
+Hashes in the registry identify downloaded README and license bytes. Commit links pin documentation, not a successful installation or a legal analysis of dependencies or hosted services.
+
 <a id="system-screenshot-to-code"></a>
+
 ### screenshot-to-code
 
-- Source: [official repository README](https://github.com/abi/screenshot-to-code), inspected 2026-10-10.
-- Identity: repository maintained under `abi/screenshot-to-code`; README overview, supported stacks and setup descriptions were inspected.
-- D scope: documented input/output workflow only. Default branch is mutable; no immutable SHA was obtained. No installation, API call, generation, security review or license interpretation was performed.
+- Owner/repository: `abi/screenshot-to-code`; reviewed 2026-10-14.
+- Source: [README at a813977](https://github.com/abi/screenshot-to-code/blob/a8139779f7c5ae231b7f2a86fa7f83ddc5f7badc/README.md); revision `a8139779f7c5ae231b7f2a86fa7f83ddc5f7badc`.
+- Repository license: [MIT](https://github.com/abi/screenshot-to-code/blob/a8139779f7c5ae231b7f2a86fa7f83ddc5f7badc/LICENSE).
+- D scope: Read the overview, supported stacks, local setup and optional screenshot-preview tool. This pins the previously mutable catalog entry.
+
+<a id="system-onlook"></a>
+
+### Onlook
+
+- Owner/repository: `onlook-dev/onlook`; reviewed 2026-10-14.
+- Source: [README at 423e2e9](https://github.com/onlook-dev/onlook/blob/423e2e924366419e418ee049093872d535eea41a/README.md); revision `423e2e924366419e418ee049093872d535eea41a`.
+- Repository license: [Apache-2.0](https://github.com/onlook-dev/onlook/blob/423e2e924366419e418ee049093872d535eea41a/LICENSE.md).
+- D scope: Read the public-editor scope, usage and How it works architecture, including code instrumentation and iframe-to-source edits. Do not transfer hosted-product claims to this snapshot.
+
+<a id="system-stagewise"></a>
+
+### stagewise
+
+- Owner/repository: `stagewise-io/stagewise`; reviewed 2026-10-14.
+- Source: [README at 43c6b25](https://github.com/stagewise-io/stagewise/blob/43c6b252bbded96f37dcec6d858bd346d17f545b/README.md); revision `43c6b252bbded96f37dcec6d858bd346d17f545b`.
+- Repository license: [AGPL-3.0](https://github.com/stagewise-io/stagewise/blob/43c6b252bbded96f37dcec6d858bd346d17f545b/LICENSE).
+- D scope: Read About the project and the License section. This snapshot describes an agentic IDE; older toolbar-only descriptions do not describe the reviewed source.
+
+<a id="system-react-grab"></a>
+
+### React Grab
+
+- Owner/repository: `aidenybai/react-grab`; reviewed 2026-10-14.
+- Source: [README at ea4bbec](https://github.com/aidenybai/react-grab/blob/ea4bbec9e80f4802e8ae19ad18431edb9ddbb670/README.md); revision `ea4bbec9e80f4802e8ae19ad18431edb9ddbb670`.
+- Repository license: [MIT](https://github.com/aidenybai/react-grab/blob/ea4bbec9e80f4802e8ae19ad18431edb9ddbb670/LICENSE).
+- D scope: Read How It Works, installation scope and the primitives API overview. No speedup claim from the README is carried into this catalog.
+
+<a id="system-playwright-mcp"></a>
+
+### Playwright MCP
+
+- Owner/repository: `microsoft/playwright-mcp`; reviewed 2026-10-14.
+- Source: [README at b8b4183](https://github.com/microsoft/playwright-mcp/blob/b8b4183e099f136cbec0388a6088d4aa2f6b9685/README.md); revision `b8b4183e099f136cbec0388a6088d4aa2f6b9685`.
+- Repository license: [Apache-2.0](https://github.com/microsoft/playwright-mcp/blob/b8b4183e099f136cbec0388a6088d4aa2f6b9685/LICENSE).
+- D scope: Read the overview, capability configuration, browser_snapshot, browser_take_screenshot and opt-in coordinate tools. Listed as supporting infrastructure, not as a standalone visual-code generator or evaluation harness.
+
+<a id="system-chrome-devtools-mcp"></a>
+
+### Chrome DevTools MCP
+
+- Owner/repository: `ChromeDevTools/chrome-devtools-mcp`; reviewed 2026-10-14.
+- Source: [README at f827e06](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/f827e067b0cea88bd99ae6de7f70f0a24aef00c5/README.md); revision `f827e067b0cea88bd99ae6de7f70f0a24aef00c5`.
+- Repository license: [Apache-2.0](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/f827e067b0cea88bd99ae6de7f70f0a24aef00c5/LICENSE).
+- D scope: Read the overview and key features. Listed as supporting infrastructure; screenshots and diagnostics enable feedback but do not implement an end-to-end visual-coding harness.
 
 <a id="system-stitch"></a>
+
 ### Stitch
 
-- Source: [From idea to app: Introducing Stitch, a new way to design UIs](https://developers.googleblog.com/stitch-a-new-way-to-design-uis/), published 2025-05-20; inspected 2026-10-10.
-- Listed authors: Vincent Nallatamby; Arnaud Benard; Sam El-Husseini.
-- D scope: announcement sections covering image/wireframe input, iteration and frontend export. Product launch claims are attributed to Google; the current application was not tested.
+- Source: [official launch announcement](https://developers.googleblog.com/stitch-a-new-way-to-design-uis/), published 2025-05-20; reviewed 2026-10-10.
+- D scope: Read the announcement sections covering image/wireframe input, iteration and frontend export. Listed authors: Vincent Nallatamby; Arnaud Benard; Sam El-Husseini. Product launch claims are attributed to Google; the current application was not tested.
+
+### Screened but Not Counted
+
+Agentation was inspected as a candidate, but the [license at the reviewed revision](https://github.com/benjitaylor/agentation/blob/0e3236eb1a0f5577852ab7bb5121f5dd46d42f1d/LICENSE) names PolyForm Shield and prohibits competing products/services. It is therefore not included in this open-source section. This screening does not assess its technical quality.
 
 ## Remaining Verification Limits
 

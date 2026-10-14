@@ -34,6 +34,16 @@ Use the existing Chinese-summary header in the actual README. Add the matching r
 
 For M, cite only the sections actually read. If only a subsection or overview was inspected, say so. For systems, provide official ownership, a source publication or review date, and an immutable revision when obtainable; otherwise disclose a mutable source.
 
+## Open-Source Projects and Research Implementations
+
+Keep documentation-led projects in **Non-Academic Open-Source Projects**, separate from counted papers and hosted products. Explain the actual visual-to-code connection and classify the role: generation/editing, visual selection to source context, or supporting browser infrastructure. A screenshot tool alone is not a complete coding harness.
+
+Inspect the official README and repository license at the same full commit SHA. Add a `systems` registry record with the repository, role, description, review date, pinned README/license URLs and SHA-256 hashes of the downloaded bytes, plus a matching D audit entry. Source availability alone is insufficient for this open-source list; do not place restrictive source-available licenses here without clearly changing the section's scope. Repository license labels do not cover every dependency or hosted service.
+
+Keep paper-associated code in **Research Implementations and Harnesses**, linked to its existing paper record rather than counted again. Store its pinned README and retrieval hash under that entry's `implementation` field. Explain any release/version gap: a public runner does not establish that all paper datasets, scores or models are released. Documentation inspection is not execution validation.
+
+Reviews are cumulative. Record each entry's actual `review_date`; moving the global cutoff must not silently update old review dates or evidence statuses.
+
 ## Local Validation
 
 Python 3 standard library is sufficient. Run from the repository root:
@@ -43,7 +53,7 @@ python3 scripts/validate_catalog.py
 git diff --check
 ```
 
-The offline validator checks duplicate IDs/titles, registry–README–audit consistency, category and count totals, calendar dates and cutoff, evidence versions/statuses, table widths, summary language and numeric parity, local links and anchors. It does not prove scientific truth or translation equivalence.
+The offline validator checks duplicate IDs/titles, registry–README–audit consistency, category and count totals, calendar dates and cutoff, evidence versions/statuses, table widths, summary language and numeric parity, local links and anchors. It also checks system inventory parity, pinned README/license references and research implementation metadata. It does not prove scientific truth or translation equivalence.
 
 For changed external links, run the separate network check:
 

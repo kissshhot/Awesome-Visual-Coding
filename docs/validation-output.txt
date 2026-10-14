@@ -1,5 +1,15 @@
-PASS: 28 unique bilingual research entries; 8 categories; 2 system resources
-PASS: 28 audit records; 18 M / 10 A; authors, dates, cutoff, versions and registry parity
+$ python3 scripts/validate_catalog.py --links docs/link-check.json
+PASS: 36 unique bilingual research entries; 8 categories; 6 open-source projects and 1 hosted resource(s)
+PASS: 36 audit records; 26 M / 10 A; authors, dates, cutoff, versions and registry parity
+PASS: 7 system records; README/audit parity, review dates and pinned open-source documentation/licenses
 PASS: 5 Markdown files; table shapes, summary languages/numbers, local links, anchors and navigation
-PASS: 48 external URLs and all cited remote fragments in saved report
+PASS: 86 external URLs and all cited remote fragments in saved report
 Limits: scientific truth, semantic translation and executable behavior require separate review.
+
+$ python3 -m py_compile scripts/validate_catalog.py scripts/check_links.py
+PASS
+
+$ git diff --check
+PASS
+
+PASS: Original 28 research records preserved except the adjacent-category rename; new retrieval hashes matched the downloaded paper, README and license bytes.
